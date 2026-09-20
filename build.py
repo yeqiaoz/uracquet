@@ -244,7 +244,7 @@ PAGES = [
  {pic("wix_14.jpg")}
 </div></section>'''),
 
- dict(url="/services/", nav="Services", hero="wix_06.jpg", hero_pos="center 22%",
+ dict(url="/services/", nav="Services", hero="wix_05.jpg",
   title="Tennis Racquet Stringing & Customization in Philadelphia — from $26.50 | URacquet Shop",
   description="USRSA Master Racquet Technician stringing ($26.50 labor), racquet customization, grip replacement, grommets and grip build-up in West Philadelphia. Rush service available. Prices listed.",
   h1="Tennis &amp; Squash Racquet Stringing and Customization in Philadelphia",
@@ -300,7 +300,7 @@ PAGES = [
 <div class="grid"><div class="card"><h3>Wilson Defyer</h3><p>98 Pro, 100 and 100L</p></div><div class="card"><h3>Head Extreme</h3><p>MP and Pro with Auxetic 2</p></div><div class="card"><h3>Dunlop FX 500</h3><p>FX 500 and FX 500 Tour</p></div></div>
 </div></section>'''),
 
- dict(url="/demo/", nav="Demo", hero="wix_07.jpg",
+ dict(url="/demo/", nav="Demo", hero="wix_12.jpg",
   title="Racquet Demo Program in Philadelphia — Try 3 Racquets for 7 Days | URacquet Shop",
   description="Demo three tennis or squash racquets for seven days for $40, with a $30 credit toward your purchase. Free in-shop consultation at URacquet Shop, West Philadelphia.",
   h1="Racquet Demo Program — Try 3 Racquets for 7 Days",
@@ -325,7 +325,7 @@ PAGES = [
 <p style="margin-top:1.5em"><a class="btn green" href="tel:{P["tel"]}">Call to book a consultation</a></p>
 </div></section>'''),
 
- dict(url="/about/", nav="About", hero="wix_13.jpg", hero_pos="center 18%",
+ dict(url="/about/", nav="About", hero="wix_02.jpeg",
   title="Mark Kuczynski, USRSA Master Racquet Technician — Penn's Stringer | URacquet Shop",
   description="Meet Mark Kuczynski: USRSA Master Racquet Technician, stringer for the ATP and WTA Tours, Eddie Herr, NCAA Division I programs, and the University of Pennsylvania since 2022. Owner of URacquet Shop, West Philadelphia.",
   h1="Mark Kuczynski, USRSA Master Racquet Technician",
@@ -339,7 +339,7 @@ PAGES = [
 <p>When not in the shop or on court, Mark is at home with his wife and their cats.</p>
 <h2>Credentials</h2>
 <ul><li>USRSA Master Racquet Technician</li><li>University of Pennsylvania varsity tennis — full-time stringer since 2022</li><li>WTA 125 Philadelphia Open — stringing operation (2026) · ATP 250 Winston-Salem Open — multi-year stringing team</li><li>Eddie Herr International Junior Championships, IMG Academy — 2023, 2024</li><li>ITA Northeast Regional Championships; ECAC Championships (three years) — primary stringer and team lead</li><li>NCAA and Ivy League programs served: Wake Forest, Ohio State, Georgia, Princeton, Harvard, Columbia</li></ul>
-<figure class="figure">{pic("wix_02.jpeg")}</figure>
+<figure class="figure">{pic("wix_13.jpg")}<figcaption>Measuring balance and swing weight before a customization.</figcaption></figure>
 <p><a class="btn outline" href="/press/">Read the press →</a></p>
 </div></section>'''),
 
@@ -362,7 +362,7 @@ PAGES = [
 <p>We’re about a mile from Penn and Drexel — a 20-minute walk or a short bike ride. SEPTA trolley and Market–Frankford Line stops are within walking distance of the shop.</p>
 </div></section>'''),
 
- dict(url="/local/", nav="Tennis in Philadelphia", hero="wix_12.jpg",
+ dict(url="/local/", nav="Tennis in Philadelphia", hero="wix_04.jpg",
   title="Tennis in Philadelphia: Leagues, Courts & Events | URacquet Shop",
   description="Where to play and watch tennis in Philadelphia — Penn varsity at Penn Tennis Center, USTA and Tennis Philly Flex leagues, pro events, and public courts near University City. From URacquet Shop.",
   h1="Tennis in Philadelphia: Leagues, Courts &amp; Events",
@@ -375,12 +375,12 @@ PAGES = [
 <p>Stay up to date with the ATP and WTA Tours — and Philadelphia’s own WTA 125 event, where Mark ran the stringing operation in 2026. <a href="/press/">Read about it →</a></p>
 <h2>USTA &amp; Flex leagues</h2>
 <p>Recreational league tennis for every level — USTA Middle States leagues and Tennis Philly Flex Leagues. Achieve your competitive goals and make friends for life.</p>
-<figure class="figure">{pic("wix_04.jpg")}<figcaption>Philadelphia plays year-round — even after a snowfall.</figcaption></figure>
+<figure class="figure">{pic("wix_12.jpg")}<figcaption>Penn Tennis Center, Penn Park.</figcaption></figure>
 <h2>Need a racquet strung before your match?</h2>
 <p><a href="/services/">Stringing is $26.50 labor</a>; rush service is available on request. <a href="tel:{P["tel"]}">Call the shop</a>.</p>
 </div></section>'''),
 
- dict(url="/press/", nav="Press", hero="wix_02.jpeg",
+ dict(url="/press/", nav="Press", hero="wix_03.jpg",
   title="In the Press — Mark Kuczynski & URacquet Shop",
   description="Court Theory's profile of URacquet Shop's Mark Kuczynski, stringer for the inaugural WTA 125 Philadelphia Open, plus tour and collegiate stringing credits.",
   h1="In the Press",
@@ -392,7 +392,7 @@ PAGES = [
 <p><a class="btn outline" href="{P["press_url"]}" rel="noopener">Read the article at Court Theory →</a></p>
 <h2>Credits</h2>
 <ul><li>WTA 125 Philadelphia Open — stringing operation (2026)</li><li>ATP 250 Winston-Salem Open — stringing team (multi-year)</li><li>Eddie Herr International Junior Championships — 2023, 2024</li><li>University of Pennsylvania varsity tennis — stringer since 2022</li><li>ITA Northeast Regional Championships · ECAC Championships</li></ul>
-<figure class="figure">{pic("wix_03.jpg")}</figure>
+<figure class="figure">{pic("wix_02.jpeg")}</figure>
 </div></section>'''),
 ]
 
