@@ -1,0 +1,9 @@
+# originals stay in Dropbox (large); the built site/ and brand PNGs are committed
+assets/source/*.jpg
+assets/source/*.jpeg
+assets/source/*.pdf
+assets/source/*.docx
+assets/source/*.ai
+assets/contact_sheet.jpg
+.DS_Store
+__pycache__/
