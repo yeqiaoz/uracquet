@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.uracquet.com/sitemap.xml
+Sitemap: https://yeqiaoz.github.io/uracquet/sitemap.xml
