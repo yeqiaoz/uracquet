@@ -77,9 +77,10 @@ def pic(name, cls="", sizes="(max-width: 800px) 100vw, 800px", loading="lazy", w
     return (f'<img src="/img/{stem}-800.webp" srcset="/img/{stem}-800.webp 800w, /img/{stem}-1600.webp 1600w" '
             f'sizes="{sizes}" alt="{alt}" loading="{loading}" decoding="async"{dims} class="{cls}">')
 
-def hero_img(name):
+def hero_img(name, pos=None):
     stem = name.rsplit(".",1)[0]
-    return f'<img src="/img/{stem}-1600.webp" alt="" fetchpriority="high" decoding="async">'
+    style = f' style="object-position:{pos}"' if pos else ""
+    return f'<img src="/img/{stem}-1600.webp" alt="" fetchpriority="high" decoding="async"{style}>'
 
 # ---------- schema ----------
 def biz_schema():
@@ -130,7 +131,7 @@ def layout(p):
     nav = "".join(nav_items)
     crumbs = "" if url=="/" else f'<nav class="crumbs wrap" aria-label="Breadcrumb"><a href="/">Home</a> › {html.escape(p["nav"])}</nav>'
     hero_cls = "hero" if url=="/" else "hero small"
-    hero = f'''<section class="{hero_cls}">{hero_img(p["hero"])}<div class="wrap"><h1>{p["h1"]}</h1>{p.get("lead","")}{p.get("cta","")}</div></section>'''
+    hero = f'''<section class="{hero_cls}">{hero_img(p["hero"], p.get("hero_pos"))}<div class="wrap"><h1>{p["h1"]}</h1>{p.get("lead","")}{p.get("cta","")}</div></section>'''
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -243,7 +244,7 @@ PAGES = [
  {pic("wix_14.jpg")}
 </div></section>'''),
 
- dict(url="/services/", nav="Services", hero="wix_06.jpg",
+ dict(url="/services/", nav="Services", hero="wix_06.jpg", hero_pos="center 22%",
   title="Tennis Racquet Stringing & Customization in Philadelphia — from $26.50 | URacquet Shop",
   description="USRSA Master Racquet Technician stringing ($26.50 labor), racquet customization, grip replacement, grommets and grip build-up in West Philadelphia. Rush service available. Prices listed.",
   h1="Tennis &amp; Squash Racquet Stringing and Customization in Philadelphia",
@@ -299,7 +300,7 @@ PAGES = [
 <div class="grid"><div class="card"><h3>Wilson Defyer</h3><p>98 Pro, 100 and 100L</p></div><div class="card"><h3>Head Extreme</h3><p>MP and Pro with Auxetic 2</p></div><div class="card"><h3>Dunlop FX 500</h3><p>FX 500 and FX 500 Tour</p></div></div>
 </div></section>'''),
 
- dict(url="/demo/", nav="Demo", hero="wix_10.jpg",
+ dict(url="/demo/", nav="Demo", hero="wix_07.jpg",
   title="Racquet Demo Program in Philadelphia — Try 3 Racquets for 7 Days | URacquet Shop",
   description="Demo three tennis or squash racquets for seven days for $40, with a $30 credit toward your purchase. Free in-shop consultation at URacquet Shop, West Philadelphia.",
   h1="Racquet Demo Program — Try 3 Racquets for 7 Days",
@@ -319,12 +320,12 @@ PAGES = [
 <ul><li>Racquets not returned after 7 days incur a late fee of <strong>$8 plus tax per day</strong>.</li><li>Racquets not returned after 10 days are charged at full retail — typically <strong>$250–305 per racquet</strong>.</li></ul>
 <h2>Get the most out of your demo</h2>
 <p>Plan specific court time before you pick up demos — account for weather, vacations and court availability. We don’t recommend playing serious matches with demo racquets; the best test is a hitting session with a coach or a more experienced partner, where you can evaluate calmly. Can’t decide? Ask your coach or hitting partner for feedback first, then come back for a consultation.</p>
-<figure class="figure">{pic("wix_09.jpg")}</figure>
+<figure class="figure">{pic("wix_10.jpg")}<figcaption>Trying a demo racquet in the shop.</figcaption></figure>
 <h2>Frequently asked</h2>{faq_html(demo_faq)}
 <p style="margin-top:1.5em"><a class="btn green" href="tel:{P["tel"]}">Call to book a consultation</a></p>
 </div></section>'''),
 
- dict(url="/about/", nav="About", hero="wix_13.jpg",
+ dict(url="/about/", nav="About", hero="wix_13.jpg", hero_pos="center 18%",
   title="Mark Kuczynski, USRSA Master Racquet Technician — Penn's Stringer | URacquet Shop",
   description="Meet Mark Kuczynski: USRSA Master Racquet Technician, stringer for the ATP and WTA Tours, Eddie Herr, NCAA Division I programs, and the University of Pennsylvania since 2022. Owner of URacquet Shop, West Philadelphia.",
   h1="Mark Kuczynski, USRSA Master Racquet Technician",

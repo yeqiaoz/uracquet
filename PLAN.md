@@ -120,3 +120,9 @@ Copyright: photos watermarked "© Yeqiao Zhou, URacquet" are the household's own
 - **Workflow:** edit `content/`/`build.py` → `python3 build.py` → commit `site/` → `git push` → live. Originals in `assets/source/` stay in Dropbox (git-ignored by size); the built site and brand files are committed.
 - **Gotcha handled:** `.nojekyll` is written into `site/` so GitHub doesn't run Jekyll (which would drop underscore files like `_headers`).
 - Temporary-URL note: on the `<user>.github.io/<repo>/` URL the site lives under a sub-path; links here are root-absolute (`/img/…`), so **use a repo named `<user>.github.io`** (served at the root) or attach the custom domain right away — both avoid sub-path breakage. Recommended: attach `www.uracquet.com` at first deploy, since it takes minutes to reverse.
+
+## 14. LIVE — Sept 20, 2026
+- **V2 is published at https://yeqiaoz.github.io/uracquet/** via GitHub Pages (repo github.com/yeqiaoz/uracquet, workflow deploys `site/` on every push to `main`; deploy key `~/.ssh/github_uracquet`, repo-scoped, write). All pages, CSS, images, sitemap return 200.
+- The Wix site at uracquet.com is untouched and still noindexed; the temporary URL is indexable now. **Do not submit the temporary URL to Search Console as the shop's site** — wait for the domain, or you'll be ranking a github.io address.
+- **Next:** (1) canonical hours ruling → update `HOURS` in build.py; (2) Mark's review of copy on his phone; (3) domain cutover: rebuild with default `BASE_URL`, write `CNAME` (`www.uracquet.com`) into `site/`, add the custom domain in Settings → Pages, set DNS at the registrar (CNAME www → yeqiaoz.github.io; apex A records 185.199.108.153 / .109.153 / .110.153 / .111.153), enforce HTTPS; (4) Google Business Profile + Search Console on the real domain.
+- **Editing workflow from here:** change `content/`-driven text in `build.py` (or ask), run `python3 build.py`, commit, push. ~1 minute to live.
