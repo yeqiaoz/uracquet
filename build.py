@@ -119,6 +119,9 @@ def faq_html(pairs):
 NAV = [("Home","/"),("Services","/services/"),("Products","/products/"),("Demo","/demo/"),("About","/about/"),("Visit","/visit/")]
 HOURS_TABLE = "<table><thead><tr><th>Day</th><th>Hours</th></tr></thead><tbody>" + "".join(f"<tr><td>{d}</td><td>{l}</td></tr>" for d,l,_,_ in HOURS) + "</tbody></table>"
 
+GSC_FILE = ROOT/"gsc-token.txt"
+GSC_META = f'<meta name="google-site-verification" content="{GSC_FILE.read_text().strip()}">' if GSC_FILE.exists() else ""
+
 def layout(p):
     url = p["url"]; canon = BASE + url
     schemas = [biz_schema()] + p.get("schemas", [])
@@ -149,6 +152,7 @@ def layout(p):
 <meta property="og:image" content="{BASE}/img/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#20a048">
+{GSC_META}
 <link rel="icon" href="/img/favicon-32.png" sizes="32x32">
 <link rel="icon" href="/img/icon-192.png" sizes="192x192">
 <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
@@ -419,7 +423,10 @@ def main():
     write(OUT/"sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
           "".join(f"  <url><loc>{BASE}{u}</loc></url>\n" for u in urls) + "</urlset>\n")
     write(OUT/"robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n")
-    write(OUT/".nojekyll", "")  # GitHub Pages: skip Jekyll so _headers etc. are served as-is
+    write(OUT/".nojekyll", "")
+    kf = ROOT/"indexnow-key.txt"
+    if kf.exists():
+        k = kf.read_text().strip(); write(OUT/f"{k}.txt", k)  # GitHub Pages: skip Jekyll so _headers etc. are served as-is
     write(OUT/"_headers", "/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n/img/*\n  Cache-Control: public, max-age=31536000, immutable\n")
     # AWS Amplify Hosting reads customHttp.yml from the artifact root (same headers as _headers)
     write(OUT/"customHttp.yml", "customHeaders:\n  - pattern: '**/*'\n    headers:\n      - key: X-Content-Type-Options\n        value: nosniff\n      - key: Referrer-Policy\n        value: strict-origin-when-cross-origin\n  - pattern: '/img/*'\n    headers:\n      - key: Cache-Control\n        value: public, max-age=31536000, immutable\n")
