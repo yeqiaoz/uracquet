@@ -424,6 +424,8 @@ def main():
           "".join(f"  <url><loc>{BASE}{u}</loc></url>\n" for u in urls) + "</urlset>\n")
     write(OUT/"robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n")
     write(OUT/".nojekyll", "")
+    for g in ROOT.glob("google*.html"):  # Search Console HTML-file verification, persisted at project root
+        shutil.copy(g, OUT/g.name)
     kf = ROOT/"indexnow-key.txt"
     if kf.exists():
         k = kf.read_text().strip(); write(OUT/f"{k}.txt", k)  # GitHub Pages: skip Jekyll so _headers etc. are served as-is
