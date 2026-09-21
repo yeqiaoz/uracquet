@@ -134,3 +134,9 @@ Copyright: photos watermarked "© Yeqiao Zhou, URacquet" are the household's own
 - **The real lever is the domain:** uracquet.com → GitHub Pages. See the DNS block in the chat log / §13.
 
 - **9/20 evening: Search Console property verified** (`https://yeqiaoz.github.io/uracquet/`, HTML-file method; file kept at project root and copied into `site/` by the build). Remaining in-console: submit `sitemap.xml`; request indexing on `/` and `/services/`. At domain cutover: add a new *Domain* property for `uracquet.com` (DNS TXT verification at Wix) and submit the sitemap there.
+
+## 16. CUTOVER DONE — Sept 20, 2026 (same day as the audit)
+- **https://www.uracquet.com now serves V2.** DNS at Wix: four GitHub A records on the apex, `www` CNAME → `yeqiaoz.github.io`; custom domain `www.uracquet.com` saved in repo Settings → Pages; Let's Encrypt certificate issued (CN=www.uracquet.com, valid to Dec 20, 2026, auto-renews). Build now runs with the default `BASE_URL` and writes `site/CNAME`. The github.io URL 301-redirects to the domain.
+- The Wix site still exists in the Wix account, untouched and unreachable at the domain; DNS can be reverted in minutes if ever needed. Domain registration stays at Wix (renews Feb 2027); the Wix *site plan* can lapse.
+- **Open at time of writing:** the apex `uracquet.com` (no www) returned GitHub's 404 minutes after cutover — GitHub's apex→www redirect can lag; if still 404 after ~1 hour, switch the custom domain in Settings → Pages to `uracquet.com` (GitHub then redirects www→apex) and rebuild with `BASE_URL=https://uracquet.com`.
+- **Remaining checklist:** tick *Enforce HTTPS* (cert is ready) · Search Console: add a *Domain* property `uracquet.com` (TXT record at Wix) → submit `sitemap.xml` → request indexing on `/` and `/services/` · Google Business Profile website field → `https://www.uracquet.com` · Instagram bio link · University City District listing (already points at uracquet.com — now correct by itself).

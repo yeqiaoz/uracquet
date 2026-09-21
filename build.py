@@ -20,6 +20,7 @@ BIZ = dict(
     ucd="https://www.universitycity.org/place/uracquet-shop/",
     maps_dir="https://www.google.com/maps/dir/?api=1&destination=4711+Pine+Street,+Philadelphia,+PA+19143",
     maps_embed="https://www.google.com/maps?q=4711+Pine+Street+Philadelphia+PA+19143&output=embed",
+    maps_place="https://www.google.com/maps/search/?api=1&query=URacquet+Shop+4711+Pine+Street+Philadelphia+PA+19143",
     press_url="https://court-theory.beehiiv.com/p/thank-the-stringer-mark-kuczynski-uracquet-philadelphia",
 )
 # CANONICAL HOURS — pending the keeper's ruling (PLAN.md 7.4); current website version.
@@ -178,7 +179,7 @@ def layout(p):
 <footer class="site-footer">
   <div class="wrap">
     <div><h3>Visit</h3><p>{BIZ["street"]}<br>{BIZ["city"]}, {BIZ["state"]} {BIZ["zip"]}<br>West Philadelphia — one mile from Penn &amp; Drexel</p><p><a href="{BIZ["maps_dir"]}" rel="noopener">Get directions</a></p></div>
-    <div><h3>Hours</h3><ul>{"".join(f"<li>{d[:3]}: {l}</li>" for d,l,_,_ in HOURS)}</ul></div>
+    <div><h3>Hours (typical)</h3><ul>{"".join(f"<li>{d[:3]}: {l}</li>" for d,l,_,_ in HOURS)}</ul><p><a href="{BIZ["maps_place"]}" rel="noopener">Today’s hours on Google →</a></p></div>
     <div><h3>Contact</h3><ul><li><a href="tel:{BIZ["tel"]}">{BIZ["phone"]}</a></li><li><a href="mailto:{BIZ["email"]}">{BIZ["email"]}</a></li><li><a href="{BIZ["instagram"]}" rel="noopener">Instagram @uracquetshop</a></li></ul></div>
     <div><h3>Pages</h3><ul><li><a href="/services/">Services &amp; prices</a></li><li><a href="/products/">Products</a></li><li><a href="/demo/">Demo program</a></li><li><a href="/about/">About Mark</a></li><li><a href="/local/">Tennis in Philadelphia</a></li><li><a href="/press/">Press</a></li></ul></div>
   </div>
@@ -244,7 +245,7 @@ PAGES = [
 <p class="note" style="margin-top:1em">Plus string from Luxilon, Solinco, Babolat, Tecnifibre, Head, Wilson, Gosen and more; shoes from K-Swiss, Wilson, Adidas and Asics. <a href="/products/">All products →</a></p>
 </div></section>
 <section class="band alt"><div class="wrap split">
- <div><h2>Visit the shop</h2><p><strong>{P["street"]}, {P["city"]}, {P["state"]} {P["zip"]}</strong><br>West Philadelphia — free, no-time-limit parking on Pine Street.</p>{HOURS_TABLE}<div class="btns"><a class="btn green" href="{P["maps_dir"]}" rel="noopener">Get directions</a><a class="btn outline" href="/visit/">Hours, parking &amp; contact</a></div></div>
+ <div><h2>Visit the shop</h2><p><strong>{P["street"]}, {P["city"]}, {P["state"]} {P["zip"]}</strong><br>West Philadelphia — free, no-time-limit parking on Pine Street.</p><p class="note">Typical hours below — <a href="{P["maps_place"]}" rel="noopener">check Google Maps for today’s</a>, since they change when Mark is out on a pickup.</p>{HOURS_TABLE}<div class="btns"><a class="btn green" href="{P["maps_dir"]}" rel="noopener">Get directions</a><a class="btn outline" href="/visit/">Hours, parking &amp; contact</a></div></div>
  {pic("wix_14.jpg")}
 </div></section>'''),
 
@@ -355,7 +356,7 @@ PAGES = [
   cta=f'<div class="btns"><a class="btn primary" href="{P["maps_dir"]}" rel="noopener">Get directions</a><a class="btn ghost" href="tel:{P["tel"]}">Call {P["phone"]}</a></div>',
   body=f'''
 <section class="band"><div class="wrap split">
-<div><h2>Hours</h2>{HOURS_TABLE}<p class="note">Our <a href="{P["maps_dir"]}" rel="noopener">Google Maps listing</a> always has the current week’s hours.</p>
+<div><h2>Hours</h2><p><a class="btn green" href="{P["maps_place"]}" rel="noopener">Today’s hours on Google Maps</a></p><p class="note">Hours change when Mark is out on a pickup or drop-off — <strong>Google always has today’s hours.</strong> Typical schedule:</p>{HOURS_TABLE}
 <h2>Contact</h2><ul><li>Phone: <a href="tel:{P["tel"]}">{P["phone"]}</a></li><li>Email: <a href="mailto:{P["email"]}">{P["email"]}</a></li><li>Instagram: <a href="{P["instagram"]}" rel="noopener">@uracquetshop</a></li></ul></div>
 <div><iframe class="map" src="{P["maps_embed"]}" title="Map: URacquet Shop, 4711 Pine Street, Philadelphia" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
 </div></section>
