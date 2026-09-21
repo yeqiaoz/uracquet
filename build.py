@@ -424,6 +424,9 @@ def main():
           "".join(f"  <url><loc>{BASE}{u}</loc></url>\n" for u in urls) + "</urlset>\n")
     write(OUT/"robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {BASE}/sitemap.xml\n")
     write(OUT/".nojekyll", "")
+    host = urlparse(BASE).netloc
+    if host.endswith("uracquet.com"):  # custom-domain build: GitHub Pages CNAME file
+        write(OUT/"CNAME", host + "\n")
     for g in ROOT.glob("google*.html"):  # Search Console HTML-file verification, persisted at project root
         shutil.copy(g, OUT/g.name)
     kf = ROOT/"indexnow-key.txt"
