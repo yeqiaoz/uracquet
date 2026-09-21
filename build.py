@@ -132,6 +132,7 @@ def layout(p):
     for n,u in NAV:
         cur = ' aria-current="page"' if u == url else ''
         nav_items.append(f'<li><a href="{u}"{cur}>{n}</a></li>')
+    nav_items.append(f'<li class="nav-ig"><a href="{BIZ["instagram"]}" rel="noopener">Instagram @uracquetshop</a></li>')
     nav = "".join(nav_items)
     crumbs = "" if url=="/" else f'<nav class="crumbs wrap" aria-label="Breadcrumb"><a href="/">Home</a> › {html.escape(p["nav"])}</nav>'
     hero_cls = "hero" if url=="/" else "hero small"
