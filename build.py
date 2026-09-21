@@ -168,6 +168,7 @@ def layout(p):
     <a class="brand" href="/" aria-label="URacquet Shop home"><img src="/img/logo-mark@2x.png" width="44" height="44" alt=""><span>URACQUET<small>SHOP · PHILADELPHIA</small></span></a>
     <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
     <nav class="nav" id="nav" aria-label="Main"><ul>{nav}</ul></nav>
+    <a class="ig" href="{BIZ["instagram"]}" rel="noopener" aria-label="URacquet Shop on Instagram" title="@uracquetshop"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
     <a class="call header-call" href="tel:{BIZ["tel"]}">📞 {BIZ["phone"]}</a>
   </div>
 </header>
@@ -243,6 +244,7 @@ PAGES = [
  <div class="card"><h3>Dunlop FX 500</h3><p>FX 500 and FX 500 Tour</p></div>
 </div>
 <p class="note" style="margin-top:1em">Plus string from Luxilon, Solinco, Babolat, Tecnifibre, Head, Wilson, Gosen and more; shoes from K-Swiss, Wilson, Adidas and Asics. <a href="/products/">All products →</a></p>
+<p style="margin-top:1em"><a class="btn outline" href="{P["instagram"]}" rel="noopener">New arrivals are posted on Instagram first — @uracquetshop</a></p>
 </div></section>
 <section class="band alt"><div class="wrap split">
  <div><h2>Visit the shop</h2><p><strong>{P["street"]}, {P["city"]}, {P["state"]} {P["zip"]}</strong><br>West Philadelphia — free, no-time-limit parking on Pine Street.</p><p class="note">Typical hours below — <a href="{P["maps_place"]}" rel="noopener">check Google Maps for today’s</a>, since they change when Mark is out on a pickup.</p>{HOURS_TABLE}<div class="btns"><a class="btn green" href="{P["maps_dir"]}" rel="noopener">Get directions</a><a class="btn outline" href="/visit/">Hours, parking &amp; contact</a></div></div>
@@ -303,6 +305,7 @@ PAGES = [
 <figure class="figure">{pic("wix_11.jpg")}</figure>
 <h2>In stock now</h2>
 <div class="grid"><div class="card"><h3>Wilson Defyer</h3><p>98 Pro, 100 and 100L</p></div><div class="card"><h3>Head Extreme</h3><p>MP and Pro with Auxetic 2</p></div><div class="card"><h3>Dunlop FX 500</h3><p>FX 500 and FX 500 Tour</p></div></div>
+<p style="margin-top:1.2em"><a class="btn outline" href="{P["instagram"]}" rel="noopener">See what just came in — @uracquetshop on Instagram</a></p>
 </div></section>'''),
 
  dict(url="/demo/", nav="Demo", hero="wix_12.jpg",
