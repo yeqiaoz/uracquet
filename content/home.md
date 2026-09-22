@@ -29,7 +29,7 @@ Don't just take the advice of YouTubers, friends — or even us. Try racquets yo
 Meet Mark Kuczynski, owner and certified Master Racquet Technician. [Short version of the About copy.]
 
 ## Latest products (keep current or remove — no dates)
-Wilson Defyer 98 Pro, 100 and 100L · Head Extreme MP and Pro with Hy-bor technology · Dunlop FX 500 and FX 500 Tour · Babolat Pure Aero 98, 100 and Team · Wilson Blade 98 and 100 · Tecnifibre Fire 98 and 100 · Yonex Ezone 98 and 100 · Diadem Axis
+Wilson Defyer 98 Pro, 100 and 100L · Head Extreme MP and Pro with Hy-bor technology · Dunlop FX 500 and FX 500 Tour · Babolat Pure Aero 98, 100 and Team · Wilson Blade V10 98 and 100 · Tecnifibre Fire 98 and 100 · Yonex Ezone 98 and 100 · Diadem Axis 98, 100 and Project Bublik
 
 ## Visit (→ /visit/)
 4711 Pine Street, Philadelphia, PA 19143 · (215) 586-3649 · uracquet@gmail.com · Hours table (canonical — see PLAN.md 7.4) · Free parking on Pine Street.
