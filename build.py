@@ -241,7 +241,7 @@ PAGES = [
 <section class="band"><div class="wrap">
 <h2>In stock now</h2>
 <div class="grid">
- <div class="card"><h3>Wilson Defyer</h3><p>98 Pro, 100 and 100L</p></div><div class="card"><h3>Head Extreme</h3><p>MP and Pro with Hy-bor technology</p></div><div class="card"><h3>Dunlop FX 500</h3><p>FX 500 and FX 500 Tour</p></div><div class="card"><h3>Babolat Pure Aero</h3><p>98, 100 and Team</p></div><div class="card"><h3>Wilson Blade</h3><p>98</p></div><div class="card"><h3>Tecnifibre Fire</h3><p>98 and 100</p></div><div class="card"><h3>Yonex Ezone</h3><p>98 and 100</p></div><div class="card"><h3>Diadem Axis</h3><p>Ask about grip sizes</p></div>
+ <div class="card"><h3>Wilson Defyer</h3><p>98 Pro, 100 and 100L</p></div><div class="card"><h3>Head Extreme</h3><p>MP and Pro with Hy-bor technology</p></div><div class="card"><h3>Dunlop FX 500</h3><p>FX 500 and FX 500 Tour</p></div><div class="card"><h3>Babolat Pure Aero</h3><p>98, 100 and Team</p></div><div class="card"><h3>Wilson Blade</h3><p>98 and 100</p></div><div class="card"><h3>Tecnifibre Fire</h3><p>98 and 100</p></div><div class="card"><h3>Yonex Ezone</h3><p>98 and 100</p></div><div class="card"><h3>Diadem Axis</h3></div>
 </div>
 <p class="note" style="margin-top:1em">Plus string from Luxilon, Solinco, Babolat, Tecnifibre, Head, Wilson, Gosen and more; shoes from K-Swiss, Wilson, Adidas and Asics. <a href="/products/">All products →</a></p>
 <p style="margin-top:1em"><a class="btn outline" href="{P["instagram"]}" rel="noopener">New arrivals are posted on Instagram first — @uracquetshop</a></p>
@@ -304,7 +304,7 @@ PAGES = [
 <p>Keep your racquet in top condition with our base grips, overgrips and dampeners. Caps, visors and wristbands for all weather conditions. Premium and championship tennis balls from Wilson, Dunlop, Tecnifibre and Diadem. And try on the latest tennis shoes from <strong>K-Swiss, Wilson, Adidas and Asics</strong>.</p>
 <figure class="figure">{pic("wix_11.jpg")}</figure>
 <h2>In stock now</h2>
-<div class="grid"><div class="card"><h3>Wilson Defyer</h3><p>98 Pro, 100 and 100L</p></div><div class="card"><h3>Head Extreme</h3><p>MP and Pro with Hy-bor technology</p></div><div class="card"><h3>Dunlop FX 500</h3><p>FX 500 and FX 500 Tour</p></div><div class="card"><h3>Babolat Pure Aero</h3><p>98, 100 and Team</p></div><div class="card"><h3>Wilson Blade</h3><p>98</p></div><div class="card"><h3>Tecnifibre Fire</h3><p>98 and 100</p></div><div class="card"><h3>Yonex Ezone</h3><p>98 and 100</p></div><div class="card"><h3>Diadem Axis</h3><p>Ask about grip sizes</p></div></div>
+<div class="grid"><div class="card"><h3>Wilson Defyer</h3><p>98 Pro, 100 and 100L</p></div><div class="card"><h3>Head Extreme</h3><p>MP and Pro with Hy-bor technology</p></div><div class="card"><h3>Dunlop FX 500</h3><p>FX 500 and FX 500 Tour</p></div><div class="card"><h3>Babolat Pure Aero</h3><p>98, 100 and Team</p></div><div class="card"><h3>Wilson Blade</h3><p>98 and 100</p></div><div class="card"><h3>Tecnifibre Fire</h3><p>98 and 100</p></div><div class="card"><h3>Yonex Ezone</h3><p>98 and 100</p></div><div class="card"><h3>Diadem Axis</h3></div></div>
 <p style="margin-top:1.2em"><a class="btn outline" href="{P["instagram"]}" rel="noopener">See what just came in — @uracquetshop on Instagram</a></p>
 </div></section>'''),
 

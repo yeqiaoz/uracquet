@@ -19,4 +19,4 @@ Stringing is our specialty. Your racquet is strung exclusively by certified Mast
 Keep your racquet in top condition with our base grips, overgrips and dampeners. Caps, visors and wristbands for all weather conditions. Premium and championship tennis balls from Wilson, Dunlop, Tecnifibre and Diadem. And try on the latest tennis shoes from **K-Swiss, Wilson, Adidas and Asics.**
 
 ## Latest arrivals (optional; keep current or omit)
-Wilson Defyer 98 Pro, 100 and 100L · Head Extreme MP and Pro with Hy-bor technology · Dunlop FX 500 and FX 500 Tour · Babolat Pure Aero 98, 100 and Team · Wilson Blade 98 · Tecnifibre Fire 98 and 100 · Yonex Ezone 98 and 100 · Diadem Axis
+Wilson Defyer 98 Pro, 100 and 100L · Head Extreme MP and Pro with Hy-bor technology · Dunlop FX 500 and FX 500 Tour · Babolat Pure Aero 98, 100 and Team · Wilson Blade 98 and 100 · Tecnifibre Fire 98 and 100 · Yonex Ezone 98 and 100 · Diadem Axis
