@@ -20,16 +20,16 @@ Welcome to URacquet Shop. Located in West Philadelphia, less than a mile from th
 ## Services (cards → /services/)
 - **Stringing** — $26.50 labor per racquet, plus string. Rush and appointment stringing on request.
 - **Customization** — weight, balance, swing weight and twist weight matched to your specs on digital equipment.
-- **Grips & grommets** — base grip $6 + grip · overgrip installed free with purchase · bumper guard & grommets $15 labor + materials.
+- **Grips & grommets** — base grip $5 + grip · overgrip installed free with purchase · bumper guard & grommets $15 labor + materials.
 
 ## Demo program (→ /demo/)
-Don't just take the advice of YouTubers, friends — or even us. Try racquets yourself: three racquets, seven days, $40, with a $30 credit toward the one you buy.
+Don't just take the advice of YouTubers, friends — or even us. Try racquets yourself: three racquets, seven days, $40, with a $35 credit toward the one you buy. Want to try just one racquet? No problem. Pay just $20 for a seven-day demo with a $15 credit toward your new racquet purchase.
 
 ## About (→ /about/)
 Meet Mark Kuczynski, owner and certified Master Racquet Technician. [Short version of the About copy.]
 
 ## Latest products (keep current or remove — no dates)
-Wilson Defyer 98 Pro, 100 and 100L · Head Extreme MP and Pro (Auxetic 2) · Dunlop FX 500 and FX 500 Tour
+Wilson Defyer 98 Pro, 100 and 100L · Head Extreme MP and Pro with Hy-bor technology · Dunlop FX 500 and FX 500 Tour · Babolat Pure Aero 98, 100 and Team · Wilson Blade 98 · Tecnifibre Fire 98 and 100 · Yonex Ezone 98 and 100 · Diadem Axis
 
 ## Visit (→ /visit/)
 4711 Pine Street, Philadelphia, PA 19143 · (215) 586-3649 · uracquet@gmail.com · Hours table (canonical — see PLAN.md 7.4) · Free parking on Pine Street.

@@ -16,12 +16,13 @@ At URacquet Shop, your racquet is strung by Mark Kuczynski, USRSA Certified Mast
 [ASK] Add: typical turnaround (same day? next day?), and confirm squash stringing.
 
 ## Customization
+(Photo caption: "Measuring racquet twist weight before a customization.")
 Racquet customization alters a racquet's existing specifications — static weight, swing weight, twist weight and balance — to a custom set of specifications requested by the player. Mark has years of experience matching and customizing racquets for the region's most skilled and advanced players. Because every customization project is different, an exact price is quoted after the racquet's current specifications are measured. Contact the shop with a description of your project for a rough estimate. URacquet Shop uses modern digital equipment for every customization.
 
 ## Grip Replacement
 A fresh grip is one of the most important — and most neglected — ways to prevent arm injury. A slippery, deteriorated grip makes your hand work harder to hold the racquet, building tension up the kinetic chain into your wrist and elbow. We install base grips professionally, and we'll install your overgrip while teaching you how to do it yourself.
 
-- **Replacement base grip installation:** $6 plus the cost of the grip
+- **Replacement base grip installation:** $5 plus the cost of the grip
 - **Overgrip installation:** free plus the cost of the grip
 
 ## Bumper Guard and Grommet Replacement

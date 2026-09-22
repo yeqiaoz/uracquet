@@ -144,3 +144,14 @@ Copyright: photos watermarked "© Yeqiao Zhou, URacquet" are the household's own
 - **Remaining checklist:** tick *Enforce HTTPS* (cert is ready) · Search Console: add a *Domain* property `uracquet.com` (TXT record at Wix) → submit `sitemap.xml` → request indexing on `/` and `/services/` · Google Business Profile website field → `https://www.uracquet.com` · Instagram bio link · University City District listing (already points at uracquet.com — now correct by itself).
 
 - **9/20 late: Search Console on the REAL domain** — URL-prefix property `https://www.uracquet.com/` verified via the existing HTML file; `sitemap.xml` submitted → Status **Success**, 8 pages discovered, read the same day. The github.io property is obsolete (its sitemap now 301s to the domain). The `uracquet.com` Domain property (TXT) is correct on Wix's authoritative nameservers and will verify on a later retry; it adds coverage only. Remaining: request indexing on `/` and `/services/`; add Mark as a user on the www property; GBP website field → https://www.uracquet.com (already set by Mark).
+
+## 17. Mark's text edits — applied Sept 21, 2026 (his email, in full)
+- **Global:** every link that leaves uracquet.com now opens in a new tab (`externalize()` in `build.py` adds `target="_blank" rel="noopener"` to any `<a href="http…">` whose host isn't uracquet.com; same-site links, `tel:` and `mailto:` stay in the tab).
+- **Home:** grips card $6 → $5; demo credit $30 → $35 + the single-racquet option ($20 / 7 days / $15 credit); In-stock grid: Head Extreme "Hy-bor technology"; + Babolat Pure Aero 98/100/Team, Wilson Blade 98, Tecnifibre Fire 98/100, Yonex Ezone 98/100, Diadem Axis.
+- **Services:** customization photo caption → "Measuring racquet twist weight before a customization." (same photo + caption on About — changed there too); base grip $5 + grip (list and prices table); schema OfferCatalog updated (base grip 5.00; demo $35; single-racquet demo offer added).
+- **Products:** Dunlop, Diadem, Yonex added to the racquet paragraph, the lead and the meta description; accessories paragraph replaced with Mark's; same In-stock grid.
+- **Demo:** all $30 → $35 (list, FAQ, meta description); "evaluate calmly" → "evaluate in a more controlled hitting environment"; FAQ demo brands + Dunlop and Diadem. **Consistency addition, not in the email — flag to Mark:** the single-racquet option is stated on the Demo page and in its FAQ too, since the Home page now advertises it.
+- **About:** credentials line 3 → "WTA 125 Philadelphia Open (2026) — team leader, manager and head stringer"; separate bullet "ATP 250 Winston-Salem Open — multi-year stringing team member". Press page credits line matched ("operation" → the new wording) for consistency.
+- **Visit:** 20-minute walk → 15-minute walk.
+- **Press:** Court Theory description replaced with Mark's sentence.
+- Copy deck (`content/*.md`) and `gbp.md` (services table, description draft) mirrored.

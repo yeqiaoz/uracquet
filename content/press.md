@@ -7,10 +7,10 @@ hero_image: wix_02.jpg
 ---
 
 ## Court Theory — "Thank The Stringer" (Sept 7, 2026, by Allen McDuffee)
-[Link to the article.] A profile of Mark's stringing operation at the inaugural WTA 125 Ennoble Care Philadelphia Open — including champion Katie Volynets' racquets, strung at pro cadence, and Mark's observations on how tension preferences track the rankings. Quote ≤2 sentences with attribution; do not reproduce the article. [ASK: choose the quote.]
+Court Theory, September 2026 · by Allen McDuffee. A profile of Mark's stringing operation at the inaugural WTA 125 Ennoble Care Philadelphia Open — a trophy ceremony that acknowledged the work of the stringer, and Mark's observations on stringing for the top players in the world. (Mark's wording, 9/21.)
 
 ## Credits
-- WTA 125 Philadelphia Open — stringing operation (2026)
+- WTA 125 Philadelphia Open (2026) — team leader, manager and head stringer
 - ATP 250 Winston-Salem Open — stringing team (multi-year)
 - Eddie Herr International Junior Championships — 2023, 2024
 - University of Pennsylvania varsity tennis — stringer since 2022

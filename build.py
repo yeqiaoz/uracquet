@@ -99,10 +99,11 @@ def biz_schema():
       "founder":{"@type":"Person","name":"Mark Kuczynski","jobTitle":"USRSA Master Racquet Technician"},
       "hasOfferCatalog":{"@type":"OfferCatalog","name":"Racquet services","itemListElement":[
         {"@type":"Offer","itemOffered":{"@type":"Service","name":"Racquet stringing"},"price":"26.50","priceCurrency":"USD","description":"String installation labor per racquet; string priced separately"},
-        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Base grip replacement"},"price":"6.00","priceCurrency":"USD","description":"Labor; plus the cost of the grip"},
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Base grip replacement"},"price":"5.00","priceCurrency":"USD","description":"Labor; plus the cost of the grip"},
         {"@type":"Offer","itemOffered":{"@type":"Service","name":"Bumper guard and grommet replacement"},"price":"15.00","priceCurrency":"USD","description":"Labor; materials $15 for current models"},
         {"@type":"Offer","itemOffered":{"@type":"Service","name":"Grip size build-up (heat-shrink sleeve)"},"price":"15.00","priceCurrency":"USD"},
-        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Racquet demo program"},"price":"40.00","priceCurrency":"USD","description":"Three racquets for seven days, $30 credit toward purchase"}]}
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Racquet demo program"},"price":"40.00","priceCurrency":"USD","description":"Three racquets for seven days, $35 credit toward purchase"},
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Single-racquet demo"},"price":"20.00","priceCurrency":"USD","description":"One racquet for seven days, $15 credit toward purchase"}]}
     }
 
 def faq_schema(pairs):
@@ -204,9 +205,9 @@ services_faq = [
  ("Do you string squash racquets?","Yes — we string tennis and squash racquets. Call ahead if you have a specific string in mind."),
 ]
 demo_faq = [
- ("How much does the demo program cost?","$40 for three racquets for seven days. If you buy a racquet afterward, $30 of that comes back as a credit."),
+ ("How much does the demo program cost?","$40 for three racquets for seven days. If you buy a racquet afterward, $35 of that comes back as a credit. A single racquet is $20 for seven days with a $15 credit."),
  ("Can I swap racquets during the week?","Yes — swap in person for a different demo any time during your seven-day period."),
- ("Which racquets can I demo?","Current models from Wilson, Head, Babolat and Tecnifibre. Ask about specific models and grip sizes."),
+ ("Which racquets can I demo?","Current models from Wilson, Head, Babolat, Tecnifibre, Dunlop and Diadem. Ask about specific models and grip sizes."),
 ]
 
 PAGES = [
@@ -227,10 +228,10 @@ PAGES = [
 <div class="grid">
  <div class="card"><h3>Stringing</h3><p class="price">$26.50 labor</p><p>Plus the string you choose — or bring your own. Strung by a Master Racquet Technician, every time. Rush and appointment stringing on request.</p><a href="/services/#stringing">Stringing details →</a></div>
  <div class="card"><h3>Customization</h3><p class="price">Quoted after measurement</p><p>Static weight, swing weight, twist weight and balance matched to your specs on digital equipment.</p><a href="/services/#customization">Customization details →</a></div>
- <div class="card"><h3>Grips &amp; grommets</h3><p class="price">From $6</p><p>Base grip $6 + grip · overgrip installed free with purchase · bumper guard and grommet replacement $15 labor + materials.</p><a href="/services/#grips">Grip &amp; grommet details →</a></div>
+ <div class="card"><h3>Grips &amp; grommets</h3><p class="price">From $5</p><p>Base grip $5 + grip · overgrip installed free with purchase · bumper guard and grommet replacement $15 labor + materials.</p><a href="/services/#grips">Grip &amp; grommet details →</a></div>
 </div></div></section>
 <section class="band"><div class="wrap split">
- <div><h2>Racquet demo program</h2><p>Don’t just take the advice of YouTubers, friends — or even us. Try racquets yourself: <strong>three racquets, seven days, $40</strong>, with a $30 credit toward the one you buy. Start with a free in-shop consultation.</p><a class="btn green" href="/demo/">How the demo program works</a></div>
+ <div><h2>Racquet demo program</h2><p>Don’t just take the advice of YouTubers, friends — or even us. Try racquets yourself: <strong>three racquets, seven days, $40</strong>, with a $35 credit toward the one you buy. Want to try just one racquet? No problem. Pay just $20 for a seven-day demo with a $15 credit toward your new racquet purchase. Start with a free in-shop consultation.</p><a class="btn green" href="/demo/">How the demo program works</a></div>
  {pic("wix_10.jpg")}
 </div></section>
 <section class="band alt"><div class="wrap split">
@@ -240,9 +241,7 @@ PAGES = [
 <section class="band"><div class="wrap">
 <h2>In stock now</h2>
 <div class="grid">
- <div class="card"><h3>Wilson Defyer</h3><p>98 Pro, 100 and 100L</p></div>
- <div class="card"><h3>Head Extreme</h3><p>MP and Pro with Auxetic 2</p></div>
- <div class="card"><h3>Dunlop FX 500</h3><p>FX 500 and FX 500 Tour</p></div>
+ <div class="card"><h3>Wilson Defyer</h3><p>98 Pro, 100 and 100L</p></div><div class="card"><h3>Head Extreme</h3><p>MP and Pro with Hy-bor technology</p></div><div class="card"><h3>Dunlop FX 500</h3><p>FX 500 and FX 500 Tour</p></div><div class="card"><h3>Babolat Pure Aero</h3><p>98, 100 and Team</p></div><div class="card"><h3>Wilson Blade</h3><p>98</p></div><div class="card"><h3>Tecnifibre Fire</h3><p>98 and 100</p></div><div class="card"><h3>Yonex Ezone</h3><p>98 and 100</p></div><div class="card"><h3>Diadem Axis</h3><p>Ask about grip sizes</p></div>
 </div>
 <p class="note" style="margin-top:1em">Plus string from Luxilon, Solinco, Babolat, Tecnifibre, Head, Wilson, Gosen and more; shoes from K-Swiss, Wilson, Adidas and Asics. <a href="/products/">All products →</a></p>
 <p style="margin-top:1em"><a class="btn outline" href="{P["instagram"]}" rel="noopener">New arrivals are posted on Instagram first — @uracquetshop</a></p>
@@ -267,10 +266,10 @@ PAGES = [
 <p class="note">Rush and appointment stringing are provided on an as-available basis at the shop’s discretion. Please call ahead to schedule rush requests before dropping off your racquet.</p>
 <h2 id="customization">Customization</h2>
 <p>Racquet customization alters a racquet’s existing specifications — static weight, swing weight, twist weight and balance — to a custom set requested by the player. Mark has years of experience matching and customizing racquets for the region’s most skilled and advanced players. Because every project is different, an exact price is quoted after the racquet’s current specifications are measured; contact the shop with a description of your project for a rough estimate. We use modern digital equipment for every customization.</p>
-<figure class="figure">{pic("wix_13.jpg")}<figcaption>Measuring balance and swing weight before a customization.</figcaption></figure>
+<figure class="figure">{pic("wix_13.jpg")}<figcaption>Measuring racquet twist weight before a customization.</figcaption></figure>
 <h2 id="grips">Grip replacement</h2>
 <p>A fresh grip is one of the most important — and most neglected — ways to prevent arm injury. A slippery, deteriorated grip makes your hand work harder to hold the racquet, building tension up the kinetic chain into your wrist and elbow. We install base grips professionally, and we’ll install your overgrip while teaching you how to do it yourself.</p>
-<ul class="price-list"><li><span>Replacement base grip installation</span><b>$6 + grip</b></li><li><span>Overgrip installation</span><b>free + grip</b></li></ul>
+<ul class="price-list"><li><span>Replacement base grip installation</span><b>$5 + grip</b></li><li><span>Overgrip installation</span><b>free + grip</b></li></ul>
 <h2 id="grommets">Bumper guard and grommet replacement</h2>
 <p>Over time a racquet’s bumper guard and grommets deteriorate, which can cause premature string breakage and irreparable damage to the graphite beam. We replace bumper guards and grommets professionally to protect your biggest tennis investment.</p>
 <ul class="price-list"><li><span>Labor</span><b>$15</b></li><li><span>Materials, current-generation models</span><b>$15</b></li><li><span>Materials, prior-generation models</span><b>call for estimate</b></li></ul>
@@ -280,21 +279,21 @@ PAGES = [
 <p class="note">*When a heat-shrink sleeve increases the grip size, the current base grip may no longer fit — expect to purchase a new base grip with this option.</p>
 <h2 id="prices">All prices at a glance</h2>
 <table><thead><tr><th>Service</th><th>Price</th></tr></thead><tbody>
-<tr><td>String installation labor</td><td>$26.50 / racquet (+ string)</td></tr><tr><td>Customization</td><td>quoted after measurement</td></tr><tr><td>Base grip installation</td><td>$6 + grip</td></tr><tr><td>Overgrip installation</td><td>free + grip</td></tr><tr><td>Bumper guard &amp; grommets</td><td>$15 labor + $15 materials (current models)</td></tr><tr><td>Grip build-up (heat-shrink)</td><td>$15</td></tr><tr><td>Demo program</td><td>$40 / 3 racquets / 7 days</td></tr></tbody></table>
+<tr><td>String installation labor</td><td>$26.50 / racquet (+ string)</td></tr><tr><td>Customization</td><td>quoted after measurement</td></tr><tr><td>Base grip installation</td><td>$5 + grip</td></tr><tr><td>Overgrip installation</td><td>free + grip</td></tr><tr><td>Bumper guard &amp; grommets</td><td>$15 labor + $15 materials (current models)</td></tr><tr><td>Grip build-up (heat-shrink)</td><td>$15</td></tr><tr><td>Demo program</td><td>$40 / 3 racquets / 7 days</td></tr></tbody></table>
 <h2>Frequently asked</h2>{faq_html(services_faq)}
 <p style="margin-top:1.5em"><a class="btn green" href="tel:{P["tel"]}">Call {P["phone"]}</a> &nbsp; <a class="btn outline" href="/visit/">Hours &amp; directions</a></p>
 </div></section>'''),
 
  dict(url="/products/", nav="Products", hero="wix_14.jpg",
   title="Tennis & Squash Racquets, String, Shoes & Accessories — West Philadelphia | URacquet Shop",
-  description="Wilson, Head, Babolat and Tecnifibre racquets; Luxilon, Solinco, Gosen and more string; tennis shoes from K-Swiss, Wilson, Adidas and Asics; grips, dampeners and balls — in stock at 4711 Pine St.",
+  description="Wilson, Head, Babolat, Tecnifibre, Dunlop, Diadem and Yonex racquets; Luxilon, Solinco, Gosen and more string; tennis shoes from K-Swiss, Wilson, Adidas and Asics; grips, dampeners and balls — in stock at 4711 Pine St.",
   h1="Tennis &amp; Squash Racquets, String, Shoes &amp; Accessories",
-  lead='<p class="lead">The latest racquets from Wilson, Head, Babolat and Tecnifibre; every type of string from the brands used on tour; shoes and accessories — chosen by people who play.</p>',
+  lead='<p class="lead">The latest racquets from Wilson, Head, Babolat, Tecnifibre, Dunlop, Diadem and Yonex; every type of string from the brands used on tour; shoes and accessories — chosen by people who play.</p>',
   body=f'''
 <section class="band"><div class="wrap prose">
 <p>Our knowledgeable staff aren’t just passionate about tennis — we’re experienced players ourselves. We use our years of experience with players from the professional circuit, advanced juniors, club players and beginners to help you find the equipment that lets you play your best and enjoy the game.</p>
 <h2>Racquets</h2>
-<p>We carry the latest generation of racquets from <strong>Wilson, Head, Babolat and Tecnifibre</strong>. Our <a href="/demo/">racquet demo program</a> makes upgrading easy and helps new players choose the racquet that suits them. Looking for a specific model and grip size? Call to confirm availability.</p>
+<p>We carry the latest generation of racquets from <strong>Wilson, Head, Babolat, Tecnifibre, Dunlop, Diadem and Yonex</strong>. Our <a href="/demo/">racquet demo program</a> makes upgrading easy and helps new players choose the racquet that suits them. Looking for a specific model and grip size? Call to confirm availability.</p>
 <figure class="figure">{pic("wix_07.jpg")}</figure>
 <h2>String</h2>
 <p>Stringing is our specialty. Your racquet is strung exclusively by certified Master Racquet Technician Mark Kuczynski, with experience on the ATP Tour. Before every job, we talk through the string that suits your swing and style of play. We carry every type of string — monofilament polyester and co-polymer, multifilament, synthetic, natural gut, and specialty strings such as kevlar and zyex — from the brands used on tour:</p>
@@ -302,16 +301,16 @@ PAGES = [
 <p>You can also bring your own string and pay only the <a href="/services/#stringing">installation labor fee</a>.</p>
 <figure class="figure">{pic("wix_05.jpg")}</figure>
 <h2>Accessories and shoes</h2>
-<p>Keep your racquet in top condition with our base grips, overgrips and dampeners. Caps, visors and wristbands for every weather. Premium and championship tennis balls from Wilson and Tecnifibre. And try on the latest tennis shoes from <strong>K-Swiss, Wilson, Adidas and Asics</strong>.</p>
+<p>Keep your racquet in top condition with our base grips, overgrips and dampeners. Caps, visors and wristbands for all weather conditions. Premium and championship tennis balls from Wilson, Dunlop, Tecnifibre and Diadem. And try on the latest tennis shoes from <strong>K-Swiss, Wilson, Adidas and Asics</strong>.</p>
 <figure class="figure">{pic("wix_11.jpg")}</figure>
 <h2>In stock now</h2>
-<div class="grid"><div class="card"><h3>Wilson Defyer</h3><p>98 Pro, 100 and 100L</p></div><div class="card"><h3>Head Extreme</h3><p>MP and Pro with Auxetic 2</p></div><div class="card"><h3>Dunlop FX 500</h3><p>FX 500 and FX 500 Tour</p></div></div>
+<div class="grid"><div class="card"><h3>Wilson Defyer</h3><p>98 Pro, 100 and 100L</p></div><div class="card"><h3>Head Extreme</h3><p>MP and Pro with Hy-bor technology</p></div><div class="card"><h3>Dunlop FX 500</h3><p>FX 500 and FX 500 Tour</p></div><div class="card"><h3>Babolat Pure Aero</h3><p>98, 100 and Team</p></div><div class="card"><h3>Wilson Blade</h3><p>98</p></div><div class="card"><h3>Tecnifibre Fire</h3><p>98 and 100</p></div><div class="card"><h3>Yonex Ezone</h3><p>98 and 100</p></div><div class="card"><h3>Diadem Axis</h3><p>Ask about grip sizes</p></div></div>
 <p style="margin-top:1.2em"><a class="btn outline" href="{P["instagram"]}" rel="noopener">See what just came in — @uracquetshop on Instagram</a></p>
 </div></section>'''),
 
  dict(url="/demo/", nav="Demo", hero="wix_12.jpg",
   title="Racquet Demo Program in Philadelphia — Try 3 Racquets for 7 Days | URacquet Shop",
-  description="Demo three tennis or squash racquets for seven days for $40, with a $30 credit toward your purchase. Free in-shop consultation at URacquet Shop, West Philadelphia.",
+  description="Demo three tennis or squash racquets for seven days for $40, with a $35 credit toward your purchase. Free in-shop consultation at URacquet Shop, West Philadelphia.",
   h1="Racquet Demo Program — Try 3 Racquets for 7 Days",
   lead='<p class="lead">Many players prefer to test a racquet before buying. Start with a free in-shop consultation; take three racquets home for a week.</p>',
   schemas=[faq_schema(demo_faq)],
@@ -322,13 +321,14 @@ PAGES = [
 <ol><li>After your free consultation, pay <strong>$40</strong> to take <strong>three demo racquets</strong> home for <strong>7 days</strong>.</li>
 <li>Want to try more than three during your week? Swap a racquet in person for a different demo — during your demo period only.</li>
 <li>When the 7 days end and all racquets are returned, choose one of three options:
- <ul><li><strong>Ready to buy:</strong> receive a <strong>$30 credit</strong> toward your new racquet.</li>
- <li><strong>Keep demoing:</strong> pay another $40 for a second 7-day period. If you buy after two periods, a single $30 credit applies. Demos are limited to 14 consecutive days (two periods).</li>
- <li><strong>Not buying yet:</strong> your demo account closes; the $30 credit stays available on a new racquet purchase for <strong>60 days</strong>.</li></ul></li></ol>
+ <ul><li><strong>Ready to buy:</strong> receive a <strong>$35 credit</strong> toward your new racquet.</li>
+ <li><strong>Keep demoing:</strong> pay another $40 for a second 7-day period. If you buy after two periods, a single $35 credit applies. Demos are limited to 14 consecutive days (two periods).</li>
+ <li><strong>Not buying yet:</strong> your demo account closes; the $35 credit stays available on a new racquet purchase for <strong>60 days</strong>.</li></ul></li></ol>
+<p>Just want to try one racquet? Pay just $20 for a seven-day demo with a $15 credit toward your new racquet purchase.</p>
 <h2>Other things to know</h2>
 <ul><li>Racquets not returned after 7 days incur a late fee of <strong>$8 plus tax per day</strong>.</li><li>Racquets not returned after 10 days are charged at full retail — typically <strong>$250–305 per racquet</strong>.</li></ul>
 <h2>Get the most out of your demo</h2>
-<p>Plan specific court time before you pick up demos — account for weather, vacations and court availability. We don’t recommend playing serious matches with demo racquets; the best test is a hitting session with a coach or a more experienced partner, where you can evaluate calmly. Can’t decide? Ask your coach or hitting partner for feedback first, then come back for a consultation.</p>
+<p>Plan specific court time before you pick up demos — account for weather, vacations and court availability. We don’t recommend playing serious matches with demo racquets; the best test is a hitting session with a coach or a more experienced partner, where you can evaluate in a more controlled hitting environment. Can’t decide? Ask your coach or hitting partner for feedback first, then come back for a consultation.</p>
 <figure class="figure">{pic("wix_10.jpg")}<figcaption>Trying a demo racquet in the shop.</figcaption></figure>
 <h2>Frequently asked</h2>{faq_html(demo_faq)}
 <p style="margin-top:1.5em"><a class="btn green" href="tel:{P["tel"]}">Call to book a consultation</a></p>
@@ -347,8 +347,8 @@ PAGES = [
 <p>In March 2026, Mark opened URacquet Shop in West Philadelphia, blocks from the University of Pennsylvania and Drexel University, to give Philadelphia’s club players and NCAA athletes alike access to Master Racquet Technician services — and the chance to pick his brain on the latest racquet and string technology.</p>
 <p>When not in the shop or on court, Mark is at home with his wife and their cats.</p>
 <h2>Credentials</h2>
-<ul><li>USRSA Master Racquet Technician</li><li>University of Pennsylvania varsity tennis — full-time stringer since 2022</li><li>WTA 125 Philadelphia Open — stringing operation (2026) · ATP 250 Winston-Salem Open — multi-year stringing team</li><li>Eddie Herr International Junior Championships, IMG Academy — 2023, 2024</li><li>ITA Northeast Regional Championships; ECAC Championships (three years) — primary stringer and team lead</li><li>NCAA and Ivy League programs served: Wake Forest, Ohio State, Georgia, Princeton, Harvard, Columbia</li></ul>
-<figure class="figure">{pic("wix_13.jpg")}<figcaption>Measuring balance and swing weight before a customization.</figcaption></figure>
+<ul><li>USRSA Master Racquet Technician</li><li>University of Pennsylvania varsity tennis — full-time stringer since 2022</li><li>WTA 125 Philadelphia Open (2026) — team leader, manager and head stringer</li><li>ATP 250 Winston-Salem Open — multi-year stringing team member</li><li>Eddie Herr International Junior Championships, IMG Academy — 2023, 2024</li><li>ITA Northeast Regional Championships; ECAC Championships (three years) — primary stringer and team lead</li><li>NCAA and Ivy League programs served: Wake Forest, Ohio State, Georgia, Princeton, Harvard, Columbia</li></ul>
+<figure class="figure">{pic("wix_13.jpg")}<figcaption>Measuring racquet twist weight before a customization.</figcaption></figure>
 <p><a class="btn outline" href="/press/">Read the press →</a></p>
 </div></section>'''),
 
@@ -368,7 +368,7 @@ PAGES = [
 <h2>Parking</h2>
 <p>Ample free, no-time-limit parking is available on Pine Street. Two-hour free parking is available on the surrounding streets — 47th St, Osage Ave, Spruce St and 48th St. Please check the posted signs where you park; URacquet Shop is not responsible for parking violations received during your visit.</p>
 <h2>Getting here from campus</h2>
-<p>We’re about a mile from Penn and Drexel — a 20-minute walk or a short bike ride. SEPTA trolley and Market–Frankford Line stops are within walking distance of the shop.</p>
+<p>We’re about a mile from Penn and Drexel — a 15-minute walk or a short bike ride. SEPTA trolley and Market–Frankford Line stops are within walking distance of the shop.</p>
 </div></section>'''),
 
  dict(url="/local/", nav="Tennis in Philadelphia", hero="wix_04.jpg",
@@ -397,16 +397,31 @@ PAGES = [
   body=f'''
 <section class="band"><div class="wrap prose">
 <h2>Court Theory — “Thank The Stringer”</h2>
-<p><em>Court Theory, September 2026 · by Allen McDuffee.</em> A profile of Mark’s stringing operation at the inaugural WTA 125 Ennoble Care Philadelphia Open — the champion’s racquets restrung at professional cadence, a trophy ceremony that acknowledged the stringer, and Mark’s observations on how tension preferences track the rankings.</p>
+<p><em>Court Theory, September 2026 · by Allen McDuffee.</em> A profile of Mark’s stringing operation at the inaugural WTA 125 Ennoble Care Philadelphia Open — a trophy ceremony that acknowledged the work of the stringer, and Mark’s observations on stringing for the top players in the world.</p>
 <p><a class="btn outline" href="{P["press_url"]}" rel="noopener">Read the article at Court Theory →</a></p>
 <h2>Credits</h2>
-<ul><li>WTA 125 Philadelphia Open — stringing operation (2026)</li><li>ATP 250 Winston-Salem Open — stringing team (multi-year)</li><li>Eddie Herr International Junior Championships — 2023, 2024</li><li>University of Pennsylvania varsity tennis — stringer since 2022</li><li>ITA Northeast Regional Championships · ECAC Championships</li></ul>
+<ul><li>WTA 125 Philadelphia Open (2026) — team leader, manager and head stringer</li><li>ATP 250 Winston-Salem Open — stringing team (multi-year)</li><li>Eddie Herr International Junior Championships — 2023, 2024</li><li>University of Pennsylvania varsity tennis — stringer since 2022</li><li>ITA Northeast Regional Championships · ECAC Championships</li></ul>
 <figure class="figure">{pic("wix_02.jpeg")}</figure>
 </div></section>'''),
 ]
 
+_EXT_A = re.compile(r'<a\b([^>]*?)href="(https?://[^"]+)"([^>]*)>', re.I)
+def externalize(text):
+    """Links that leave uracquet.com open in a new tab (Mark, 9/21); same-site links stay in the tab."""
+    def fix(m):
+        pre, href, post = m.group(1), m.group(2), m.group(3)
+        host = urlparse(href).netloc.lower()
+        if host == "uracquet.com" or host.endswith(".uracquet.com") or "target=" in (pre + post):
+            return m.group(0)
+        tag = f'<a{pre}href="{href}"{post}'
+        if "rel=" not in tag: tag += ' rel="noopener"'
+        return tag + ' target="_blank">'
+    return _EXT_A.sub(fix, text)
+
 def write(path, text):
     path.parent.mkdir(parents=True, exist_ok=True)
+    if path.suffix == ".html":
+        text = externalize(text)
     if PREFIX and path.suffix == ".html":
         text = text.replace('href="/', f'href="{PREFIX}/').replace('src="/', f'src="{PREFIX}/').replace('srcset="/', f'srcset="{PREFIX}/').replace(', /img/', f', {PREFIX}/img/')
     path.write_text(text, encoding="utf-8")

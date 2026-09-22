@@ -18,7 +18,8 @@ When not in the shop or on court, Mark is at home with his wife and their cats. 
 ## Credentials (list, for scanning)
 - USRSA Master Racquet Technician
 - University of Pennsylvania varsity tennis — full-time stringer since 2022
-- WTA 125 Philadelphia Open (2026) — stringing operation [ASK: confirm title/year] · ATP 250 Winston-Salem Open — multi-year stringing team
+- WTA 125 Philadelphia Open (2026) — team leader, manager and head stringer
+- ATP 250 Winston-Salem Open — multi-year stringing team member
 - Eddie Herr International Junior Championships, IMG Academy — 2023, 2024
 - ITA Northeast Regional Championships; ECAC Championships (3 years) — primary stringer and team lead
 - NCAA/Ivy programs served: Wake Forest, Ohio State, Georgia, Princeton, Harvard, Columbia

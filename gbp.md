@@ -9,7 +9,7 @@ Info → Website → `https://www.uracquet.com` (with the www; that is the canon
 Primary: **Tennis store** (keep). Secondary (add if offered in the picker): **Sporting goods store**, **Sports equipment repair**? — only if the picker offers a repair/stringing-like category; otherwise the Services section carries stringing.
 
 ## 3. Business description — ✅ already set by Mark (draft below kept for reference)
-URacquet Shop is West Philadelphia's racquet stringing and tennis shop, one mile from the University of Pennsylvania and Drexel University. Owner Mark Kuczynski is a USRSA Master Racquet Technician who strings for ATP and WTA Tour players, NCAA Division I programs, and the University of Pennsylvania's varsity teams. Services: racquet stringing ($26.50 labor plus string, or bring your own string), racquet customization (weight, balance and swing weight), grip and grommet replacement, and grip-size build-up. Try before you buy with our racquet demo program: three racquets for seven days for $40, with a $30 credit toward your purchase. We carry Wilson, Head, Babolat and Tecnifibre racquets, tour-brand string, shoes and accessories. Free parking on Pine Street.
+URacquet Shop is West Philadelphia's racquet stringing and tennis shop, one mile from the University of Pennsylvania and Drexel University. Owner Mark Kuczynski is a USRSA Master Racquet Technician who strings for ATP and WTA Tour players, NCAA Division I programs, and the University of Pennsylvania's varsity teams. Services: racquet stringing ($26.50 labor plus string, or bring your own string), racquet customization (weight, balance and swing weight), grip and grommet replacement, and grip-size build-up. Try before you buy with our racquet demo program: three racquets for seven days for $40, with a $35 credit toward your purchase. We carry Wilson, Head, Babolat, Tecnifibre, Dunlop, Diadem and Yonex racquets, tour-brand string, shoes and accessories. Free parking on Pine Street.
 
 ## 4. Services — MARK'S CALL (keeper: "I think he left out 3 on purpose")
 His profile, his decision. Middle path if he wants matching without price commitments: list the service NAMES only (stringing, customization, grips, grommets, demo program) with the price field blank or "price varies" — Google matches on the service text, and prices already live on the website where he controls them.
@@ -17,10 +17,11 @@ His profile, his decision. Middle path if he wants matching without price commit
 |---|---|---|
 | Racquet stringing | $26.50 | String installation labor per racquet, plus the string you choose. Bring your own string and pay labor only. Rush service by request. |
 | Racquet customization | Price varies | Static weight, swing weight, twist weight and balance matched to your specs on digital equipment. Quoted after measurement. |
-| Base grip replacement | $6.00 | Labor; plus the cost of the grip. Overgrip installed free with purchase. |
+| Base grip replacement | $5.00 | Labor; plus the cost of the grip. Overgrip installed free with purchase. |
 | Bumper guard & grommet replacement | $15.00 | Labor; materials $15 for current models. |
 | Grip size build-up | $15.00 | Heat-shrink sleeve under the base grip, sleeve and labor included. |
-| Racquet demo program | $40.00 | Three racquets for seven days, with a $30 credit toward a racquet purchase. Free consultation. |
+| Racquet demo program | $40.00 | Three racquets for seven days, with a $35 credit toward a racquet purchase. Free consultation. |
+| Single-racquet demo | $20.00 | One racquet for seven days, with a $15 credit toward a racquet purchase. |
 | Squash racquet stringing | $26.50 | (add only if Mark confirms) |
 
 ## 5. Hours
