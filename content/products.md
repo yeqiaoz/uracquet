@@ -7,7 +7,7 @@ hero_image: wix_14.jpg
 ---
 
 ## Tennis Equipment
-Our knowledgeable staff aren't just passionate about tennis — we're experienced players ourselves. We use our years of experience with players from the professional circuit, advanced juniors, club players and beginners to help you find the equipment that lets you play your best and enjoy the game.
+Our knowledgeable staff aren't just passionate about tennis — we're experienced players ourselves. We use our years of experience working with players from the professional circuit, advanced juniors, club players and beginners to help you find the equipment that lets you play your best and enjoy the game.
 
 ## Racquets
 We carry the latest generation of racquets from **Wilson, Head, Babolat, Tecnifibre, Dunlop, Diadem and Yonex**. Our racquet demo program makes upgrading easy and helps new players choose the racquet that suits them. Looking for a specific model and grip size? Check with us to confirm availability.

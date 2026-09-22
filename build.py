@@ -291,7 +291,7 @@ PAGES = [
   lead='<p class="lead">The latest racquets from Wilson, Head, Babolat, Tecnifibre, Dunlop, Diadem and Yonex; every type of string from the brands used on tour; shoes and accessories — chosen by people who play.</p>',
   body=f'''
 <section class="band"><div class="wrap prose">
-<p>Our knowledgeable staff aren’t just passionate about tennis — we’re experienced players ourselves. We use our years of experience with players from the professional circuit, advanced juniors, club players and beginners to help you find the equipment that lets you play your best and enjoy the game.</p>
+<p>Our knowledgeable staff aren’t just passionate about tennis — we’re experienced players ourselves. We use our years of experience working with players from the professional circuit, advanced juniors, club players and beginners to help you find the equipment that lets you play your best and enjoy the game.</p>
 <h2>Racquets</h2>
 <p>We carry the latest generation of racquets from <strong>Wilson, Head, Babolat, Tecnifibre, Dunlop, Diadem and Yonex</strong>. Our <a href="/demo/">racquet demo program</a> makes upgrading easy and helps new players choose the racquet that suits them. Looking for a specific model and grip size? Call to confirm availability.</p>
 <figure class="figure">{pic("wix_07.jpg")}</figure>
