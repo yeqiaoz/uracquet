@@ -399,7 +399,7 @@ PAGES = [
 <h2>Court Theory — “Thank The Stringer”</h2>
 <p><em>Court Theory, September 2026 · by Allen McDuffee.</em> A profile of Mark’s stringing operation at the inaugural WTA 125 Ennoble Care Philadelphia Open — a trophy ceremony that acknowledged the work of the stringer, and Mark’s observations on stringing for the top players in the world.</p>
 <p><a class="btn outline" href="{P["press_url"]}" rel="noopener">Read the article at Court Theory →</a></p>
-<h2>Credits</h2>
+<h2>Professional summary</h2>
 <ul><li>WTA 125 Philadelphia Open (2026) — team leader, manager and head stringer</li><li>ATP 250 Winston-Salem Open — stringing team (multi-year)</li><li>Eddie Herr International Junior Championships — 2023, 2024</li><li>University of Pennsylvania varsity tennis — stringer since 2022</li><li>ITA Northeast Regional Championships · ECAC Championships</li></ul>
 <figure class="figure">{pic("wix_02.jpeg")}</figure>
 </div></section>'''),

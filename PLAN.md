@@ -153,5 +153,5 @@ Copyright: photos watermarked "© Yeqiao Zhou, URacquet" are the household's own
 - **Demo:** all $30 → $35 (list, FAQ, meta description); "evaluate calmly" → "evaluate in a more controlled hitting environment"; FAQ demo brands + Dunlop and Diadem. **Consistency addition, not in the email — flag to Mark:** the single-racquet option is stated on the Demo page and in its FAQ too, since the Home page now advertises it.
 - **About:** credentials line 3 → "WTA 125 Philadelphia Open (2026) — team leader, manager and head stringer"; separate bullet "ATP 250 Winston-Salem Open — multi-year stringing team member". Press page credits line matched ("operation" → the new wording) for consistency.
 - **Visit:** 20-minute walk → 15-minute walk.
-- **Press:** Court Theory description replaced with Mark's sentence.
+- **Press:** Court Theory description replaced with Mark's sentence; "Credits" heading → "Professional summary" (9/22).
 - Copy deck (`content/*.md`) and `gbp.md` (services table, description draft) mirrored.
