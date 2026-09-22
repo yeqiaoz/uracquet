@@ -20,3 +20,5 @@ Keep your racquet in top condition with our base grips, overgrips and dampeners.
 
 ## Latest arrivals (optional; keep current or omit)
 Wilson Defyer 98 Pro, 100 and 100L · Head Extreme MP and Pro with Hy-bor technology · Dunlop FX 500 and FX 500 Tour · Babolat Pure Aero 98, 100 and Team · Wilson Blade V10 98 and 100 · Tecnifibre Fire 98 and 100 · Yonex Ezone 98 and 100 · Diadem Axis 98, 100 and Project Bublik
+
+More racquet lines and models available including the Head Speed and Gravity, Babolat Pure Drive and Strike, Wilson Ultra, Clash and Pro Staff, Tecnifibre T-Fight, as well as options for advanced juniors and children.
