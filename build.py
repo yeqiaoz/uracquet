@@ -42,6 +42,10 @@ ALT = {
  "wix_04.jpg":"Snow-covered tennis courts with the Philadelphia skyline behind",
  "wix_02.jpeg":"Arthur Ashe Stadium during the US Open",
  "wix_03.jpg":"A USTA National Championships banner on a court fence",
+ "squash_racquets.jpg":"Tecnifibre Carboflex squash racquets on the racquet wall at URacquet Shop",
+ "squash_string.jpg":"Reels of Tecnifibre squash string, including Tecnifibre 305, at URacquet Shop",
+ "squash_eyewear.jpg":"Tecnifibre protective squash eyewear in stock at URacquet Shop",
+ "squash_grips.jpg":"Karakal PU Super Grip replacement grips for squash racquets",
 }
 
 # ---------- images ----------
@@ -215,7 +219,7 @@ squash_faq = [
  ("How much does it cost to string a squash racquet?","$26.50 labor per racquet, plus the string you choose — same as tennis. Bring your own string and pay labor only."),
  ("What tension should I string my squash racquet at?","Much lower than tennis — most squash racquets play best in the low-to-mid 20s (lbs), where a couple of pounds changes the whole feel. We talk it through before every job."),
  ("How long does squash stringing take?","Turnaround depends on the queue — many racquets are ready the same or next day. Call ahead for rush requests."),
- ("Do you sell squash racquets and string?","We carry squash string, including Ashaway and Tecnifibre, and squash gear rotates through the shop — call for current racquet stock."),
+ ("Do you sell squash racquets and string?","Yes — Tecnifibre Carboflex squash racquets, squash string from Tecnifibre (including 305) and Ashaway, Karakal grips, protective eyewear and double-yellow-dot balls. Call to confirm current models and weights."),
 ]
 
 PAGES = [
@@ -358,8 +362,15 @@ PAGES = [
 <ul class="price-list"><li><span>String installation labor</span><b>$26.50 per racquet</b></li><li><span>String</span><b>varies by selection</b></li><li><span>Bring your own string</span><b>labor only</b></li></ul>
 <p class="note">Rush and appointment stringing on request — call ahead before dropping off your racquet.</p>
 <h2>Squash string we carry</h2>
-<p>We stock squash string from <strong>Ashaway</strong> — the standard of American squash — and <strong>Tecnifibre</strong>, in the thin gauges squash play demands. Not sure what suits your game? We talk through string and tension before every job, the same conversation we have with every tennis player.</p>
-<figure class="figure">{pic("wix_05.jpg")}</figure>
+<p>We stock squash string from <strong>Tecnifibre — including 305, the most-played string in squash — </strong>and <strong>Ashaway</strong>, the standard of American squash, in the thin gauges squash play demands. Not sure what suits your game? We talk through string and tension before every job, the same conversation we have with every tennis player.</p>
+<h2>The squash wall</h2>
+<p><strong>Tecnifibre Carboflex squash racquets</strong> are on the wall, with <strong>Karakal PU Super Grips</strong>, <strong>double-yellow-dot balls</strong> and <strong>protective squash eyewear</strong> — required in college and junior play — on the racks beside them.</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin:1.2em 0">
+<figure class="figure" style="margin:0">{pic("squash_racquets.jpg")}<figcaption>Tecnifibre Carboflex racquets</figcaption></figure>
+<figure class="figure" style="margin:0">{pic("squash_string.jpg")}<figcaption>Tecnifibre squash string — 305 on the reel</figcaption></figure>
+<figure class="figure" style="margin:0">{pic("squash_eyewear.jpg")}<figcaption>Protective squash eyewear</figcaption></figure>
+<figure class="figure" style="margin:0">{pic("squash_grips.jpg")}<figcaption>Karakal PU Super Grips</figcaption></figure>
+</div>
 <h2>Philadelphia is squash country</h2>
 <p>The <a href="https://ussquash.org/community/specter-center/">Arlen Specter US Squash Center</a> — the national home of US Squash and host of the US Open Squash Championships — sits on Drexel\u2019s campus, minutes from the shop. Penn varsity squash plays at the Ringe Courts, and the Racquet Club of Philadelphia keeps the game\u2019s oldest traditions alive downtown. If you play squash in University City, a Master Racquet Technician is a short walk from your court.</p>
 <h2>Frequently asked</h2>{faq_html(squash_faq)}

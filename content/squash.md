@@ -11,7 +11,7 @@ Squash frames are lighter and more delicate than tennis frames, and they are str
 
 ## Squash string we carry
 Ashaway (the standard of American squash) and Tecnifibre, in thin squash gauges. String-and-tension consultation before every job.
-[ASK Mark: preferred squash string lines to name (SuperNick? 305?), and whether to list squash racquet brands in stock.]
+RESOLVED 9/23 by Mark's URphotos: Tecnifibre 305 named on the page; Carboflex racquets, Karakal grips, eyewear and double-dot balls added — see 'The squash wall' gallery (squash_racquets/string/eyewear/grips.jpg, cropped square from URphotos/).
 
 ## Philadelphia is squash country
 Arlen Specter US Squash Center (national HQ of US Squash; US Open host) on Drexel's campus, minutes away · Penn varsity squash at the Ringe Courts · the Racquet Club of Philadelphia downtown.
