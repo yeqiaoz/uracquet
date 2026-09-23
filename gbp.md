@@ -22,7 +22,7 @@ His profile, his decision. Middle path if he wants matching without price commit
 | Grip size build-up | $15.00 | Heat-shrink sleeve under the base grip, sleeve and labor included. |
 | Racquet demo program | $40.00 | Three racquets for seven days, with a $35 credit toward a racquet purchase. Free consultation. |
 | Single-racquet demo | $20.00 | One racquet for seven days, with a $15 credit toward a racquet purchase. |
-| Squash racquet stringing | $26.50 | (add only if Mark confirms) |
+| Squash racquet stringing | $26.50 | String installation labor per squash racquet, plus the string you choose. (Confirmed — dedicated squash page live 9/23.) |
 
 ## 5. Hours
 The website defers to the profile ("Our Google Maps listing always has the current week's hours"). Read the profile's hours back to me and I'll make the site match exactly — that closes the site-vs-UCD mismatch.

@@ -103,7 +103,8 @@ def biz_schema():
         {"@type":"Offer","itemOffered":{"@type":"Service","name":"Bumper guard and grommet replacement"},"price":"15.00","priceCurrency":"USD","description":"Labor; materials $15 for current models"},
         {"@type":"Offer","itemOffered":{"@type":"Service","name":"Grip size build-up (heat-shrink sleeve)"},"price":"15.00","priceCurrency":"USD"},
         {"@type":"Offer","itemOffered":{"@type":"Service","name":"Racquet demo program"},"price":"40.00","priceCurrency":"USD","description":"Three racquets for seven days, $35 credit toward purchase"},
-        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Single-racquet demo"},"price":"20.00","priceCurrency":"USD","description":"One racquet for seven days, $15 credit toward purchase"}]}
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Single-racquet demo"},"price":"20.00","priceCurrency":"USD","description":"One racquet for seven days, $15 credit toward purchase"},
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Squash racquet stringing"},"price":"26.50","priceCurrency":"USD","description":"String installation labor per squash racquet; string priced separately"}]}
     }
 
 def faq_schema(pairs):
@@ -118,7 +119,7 @@ def faq_html(pairs):
     return '<div class="faq">' + "".join(f"<details><summary>{html.escape(q)}</summary><p>{a}</p></details>" for q,a in pairs) + "</div>"
 
 # ---------- layout ----------
-NAV = [("Home","/"),("Services","/services/"),("Products","/products/"),("Demo","/demo/"),("About","/about/"),("Visit","/visit/")]
+NAV = [("Home","/"),("Services","/services/"),("Products","/products/"),("Demo","/demo/"),("Squash","/squash/"),("About","/about/"),("Visit","/visit/")]
 HOURS_TABLE = "<table><thead><tr><th>Day</th><th>Hours</th></tr></thead><tbody>" + "".join(f"<tr><td>{d}</td><td>{l}</td></tr>" for d,l,_,_ in HOURS) + "</tbody></table>"
 
 GSC_FILE = ROOT/"gsc-token.txt"
@@ -184,7 +185,7 @@ def layout(p):
     <div><h3>Visit</h3><p>{BIZ["street"]}<br>{BIZ["city"]}, {BIZ["state"]} {BIZ["zip"]}<br>West Philadelphia — one mile from Penn &amp; Drexel</p><p><a href="{BIZ["maps_dir"]}" rel="noopener">Get directions</a></p></div>
     <div><h3>Hours (typical)</h3><ul>{"".join(f"<li>{d[:3]}: {l}</li>" for d,l,_,_ in HOURS)}</ul><p><a href="{BIZ["maps_place"]}" rel="noopener">Today’s hours on Google →</a></p></div>
     <div><h3>Contact</h3><ul><li><a href="tel:{BIZ["tel"]}">{BIZ["phone"]}</a></li><li><a href="mailto:{BIZ["email"]}">{BIZ["email"]}</a></li><li><a href="{BIZ["instagram"]}" rel="noopener">Instagram @uracquetshop</a></li></ul></div>
-    <div><h3>Pages</h3><ul><li><a href="/services/">Services &amp; prices</a></li><li><a href="/products/">Products</a></li><li><a href="/demo/">Demo program</a></li><li><a href="/about/">About Mark</a></li><li><a href="/local/">Tennis in Philadelphia</a></li><li><a href="/press/">Press</a></li></ul></div>
+    <div><h3>Pages</h3><ul><li><a href="/services/">Services &amp; prices</a></li><li><a href="/products/">Products</a></li><li><a href="/demo/">Demo program</a></li><li><a href="/squash/">Squash</a></li><li><a href="/about/">About Mark</a></li><li><a href="/local/">Tennis in Philadelphia</a></li><li><a href="/press/">Press</a></li></ul></div>
   </div>
   <div class="legal wrap">© 2026 URacquet Shop · Master Racquet Technician services · Philadelphia, PA</div>
 </footer>
@@ -208,6 +209,13 @@ demo_faq = [
  ("How much does the demo program cost?","$40 for three racquets for seven days. If you buy a racquet afterward, $35 of that comes back as a credit. A single racquet is $20 for seven days with a $15 credit."),
  ("Can I swap racquets during the week?","Yes — swap in person for a different demo any time during your seven-day period."),
  ("Which racquets can I demo?","Current models from Wilson, Head, Babolat, Tecnifibre, Dunlop and Diadem. Ask about specific models and grip sizes."),
+]
+
+squash_faq = [
+ ("How much does it cost to string a squash racquet?","$26.50 labor per racquet, plus the string you choose — same as tennis. Bring your own string and pay labor only."),
+ ("What tension should I string my squash racquet at?","Much lower than tennis — most squash racquets play best in the low-to-mid 20s (lbs), where a couple of pounds changes the whole feel. We talk it through before every job."),
+ ("How long does squash stringing take?","Turnaround depends on the queue — many racquets are ready the same or next day. Call ahead for rush requests."),
+ ("Do you sell squash racquets and string?","We carry squash string, including Ashaway and Tecnifibre, and squash gear rotates through the shop — call for current racquet stock."),
 ]
 
 PAGES = [
@@ -334,6 +342,28 @@ PAGES = [
 <figure class="figure">{pic("wix_10.jpg")}<figcaption>Trying a demo racquet in the shop.</figcaption></figure>
 <h2>Frequently asked</h2>{faq_html(demo_faq)}
 <p style="margin-top:1.5em"><a class="btn green" href="tel:{P["tel"]}">Call to book a consultation</a></p>
+</div></section>'''),
+
+ dict(url="/squash/", nav="Squash", hero="wix_11.jpg",
+  title="Squash Racquet Stringing in Philadelphia — Near the Specter Center | URacquet Shop",
+  description="Squash racquet stringing by a USRSA Master Racquet Technician — $26.50 labor plus string, minutes from the Arlen Specter US Squash Center, Penn and Drexel. Ashaway and Tecnifibre squash string. 4711 Pine St, West Philadelphia.",
+  h1="Squash Racquet Stringing in Philadelphia",
+  lead='<p class="lead">Squash racquets strung by a USRSA Master Racquet Technician — in the middle of American squash country, minutes from the Arlen Specter US Squash Center and Penn\u2019s Ringe Courts.</p>',
+  cta=f'<div class="btns"><a class="btn primary" href="tel:{P["tel"]}">Call {P["phone"]}</a><a class="btn ghost" href="/services/#prices">See all prices</a></div>',
+  schemas=[faq_schema(squash_faq)],
+  body=f'''
+<section class="band"><div class="wrap prose">
+<h2>Squash stringing</h2>
+<p>Squash frames are lighter and more delicate than tennis frames, and they are strung at much lower tensions — a range where a couple of pounds changes the whole feel of the racquet. That is exactly where Master Racquet Technician precision pays: a calibrated machine, a consistent pull, and a string bed that plays the same after every restring. Your squash racquet gets the same attention as the tour tennis frames that come through the shop.</p>
+<ul class="price-list"><li><span>String installation labor</span><b>$26.50 per racquet</b></li><li><span>String</span><b>varies by selection</b></li><li><span>Bring your own string</span><b>labor only</b></li></ul>
+<p class="note">Rush and appointment stringing on request — call ahead before dropping off your racquet.</p>
+<h2>Squash string we carry</h2>
+<p>We stock squash string from <strong>Ashaway</strong> — the standard of American squash — and <strong>Tecnifibre</strong>, in the thin gauges squash play demands. Not sure what suits your game? We talk through string and tension before every job, the same conversation we have with every tennis player.</p>
+<figure class="figure">{pic("wix_05.jpg")}</figure>
+<h2>Philadelphia is squash country</h2>
+<p>The <a href="https://ussquash.org/community/specter-center/">Arlen Specter US Squash Center</a> — the national home of US Squash and host of the US Open Squash Championships — sits on Drexel\u2019s campus, minutes from the shop. Penn varsity squash plays at the Ringe Courts, and the Racquet Club of Philadelphia keeps the game\u2019s oldest traditions alive downtown. If you play squash in University City, a Master Racquet Technician is a short walk from your court.</p>
+<h2>Frequently asked</h2>{faq_html(squash_faq)}
+<p style="margin-top:1.5em"><a class="btn green" href="tel:{P["tel"]}">Call {P["phone"]}</a> &nbsp; <a class="btn outline" href="/visit/">Hours &amp; directions</a></p>
 </div></section>'''),
 
  dict(url="/about/", nav="About", hero="wix_02.jpeg",
