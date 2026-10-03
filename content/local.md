@@ -3,7 +3,7 @@ url: /local/
 title: Tennis in Philadelphia: Leagues, Courts & Events | URacquet Shop
 description: Where to play and watch tennis in Philadelphia — Penn varsity at Penn Tennis Center, USTA and Tennis Philly Flex leagues, pro events, and public courts near University City. From URacquet Shop.
 h1: Tennis in Philadelphia: Leagues, Courts & Events
-hero_image: wix_12.jpg
+hero_image: wix_04.jpg (snowy courts) · body photo: wix_12.jpg (Penn Tennis Center)
 ---
 
 Evergreen resource page — no dated news items (the old homepage feed went stale). Sections:
