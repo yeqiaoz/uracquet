@@ -47,7 +47,6 @@ ALT = {
  "tennis_balls.jpg":"Cans of Tecnifibre, Wilson and Dunlop tennis balls on the shelf at URacquet Shop",
  "plush_keychain.jpg":"A plush tennis-ball keychain on the accessories wall",
  # earlier photos still in use
- "wix_05.jpg":"Reels of Wilson, Head and Yonex tennis string",
  "wix_12.jpg":"The outdoor courts at Penn Tennis Center in Penn Park",
  "wix_04.jpg":"Snow-covered tennis courts with the Philadelphia skyline behind",
  "ashe_stadium.jpg":"Arthur Ashe Stadium during a US Open day session, seen from the upper deck",
@@ -55,6 +54,7 @@ ALT = {
  "shoes_tryon.jpg":"A customer lacing up a pair of Wilson tennis shoes in the shop, with K-Swiss, Wilson and Asics shoe boxes stacked behind",
  "string_reels_yonex.jpg":"A stack of Yonex string reels beside the Head racquet guide at URacquet Shop",
  "string_luxilon.jpg":"Luxilon string sets and reels on the counter at URacquet Shop",
+ "stringing_machine.jpg":"A racquet mounted on the Wilson stringing machine at URacquet Shop, Mark Kuczynski's hands on the string bed",
  "window_lucky_cat.jpg":"The shop window at 4711 Pine Street: a giant Babolat tennis ball and a beckoning lucky cat",
  "wix_03.jpg":"A USTA National Championships banner on a court fence",
  "squash_racquets.jpg":"Tecnifibre Carboflex squash racquets on the racquet wall at URacquet Shop",
@@ -279,7 +279,7 @@ PAGES = [
  {pic("wall_racquets_wide.jpg")}
 </div></section>'''),
 
- dict(url="/services/", nav="Services", hero="wix_05.jpg",
+ dict(url="/services/", nav="Services", hero="stringing_machine.jpg",
   title="Tennis Racquet Stringing & Customization in Philadelphia — from $26.50 | URacquet Shop",
   description="USRSA Master Racquet Technician stringing ($26.50 labor), racquet customization, grip replacement, grommets and grip build-up in West Philadelphia. Rush service available. Prices listed.",
   h1="Tennis &amp; Squash Racquet Stringing and Customization in Philadelphia",
