@@ -3,7 +3,7 @@ url: /services/
 title: Tennis Racquet Stringing & Customization in Philadelphia — from $26.50 | URacquet Shop
 description: USRSA Master Racquet Technician stringing ($26.50 labor), racquet customization, grip replacement, grommets and grip build-up in West Philadelphia. Rush service available. Prices listed.
 h1: Tennis & Squash Racquet Stringing and Customization in Philadelphia
-hero_image: wix_05.jpg (string reels) · body photos (10/3/26 shoot): two-up gallery under Stringing — mark_stringing.jpg "Pulling tension on the stringing machine." + mark_weaving.jpg "Weaving the crosses by hand."; wix_13.jpg under Customization
+hero_image: wix_05.jpg (string reels) · body photos (10/3/26 shoot): mark_stringing.jpg "Pulling tension on the stringing machine." under Stringing (narrow figure); two-up under Customization — customization_measuring.jpg "Measuring racquet twist weight before a customization." + customization_readout.jpg "Static weight, swing weight, balance and twist weight on the readout." (DSC07868/DSC07876, added 10/3 evening; replaced wix_13)
 ---
 
 ## Stringing

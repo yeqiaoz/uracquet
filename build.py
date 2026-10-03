@@ -36,22 +36,19 @@ ALT = {
  "mark_portrait.jpg":"Mark Kuczynski at the stringing machine in URacquet Shop",
  "mark_shop_interior.jpg":"Mark Kuczynski stringing a racquet at URacquet Shop, with the racquet wall and the Pine Street windows behind him",
  "mark_stringing.jpg":"Mark Kuczynski pulling tension on a racquet on the stringing machine at URacquet Shop",
- "mark_weaving.jpg":"Mark Kuczynski weaving cross strings by hand",
- "mark_mounting.jpg":"Mark Kuczynski mounting a racquet on the stringing machine at URacquet Shop",
- "mark_checking_racquet.jpg":"Mark Kuczynski checking a freshly strung racquet in the shop",
+ "customization_measuring.jpg":"Mark Kuczynski placing a racquet on the Head diagnostic machine to measure its weight, balance and swing weight",
+ "customization_readout.jpg":"The diagnostic machine's readout: total weight, swing weight, balance and twist weight",
  "racquet_diadem_axis.jpg":"A Diadem Axis Project Bublik racquet on the wall at URacquet Shop",
  "racquet_yonex_ezone.jpg":"A Yonex Ezone 100 racquet on the wall at URacquet Shop",
- "junior_racquets.jpg":"Junior tennis racquets in a rack at URacquet Shop",
+ "demo_racquets.jpg":"Demo racquets in a rack at URacquet Shop",
  "shoe_asics.jpg":"An Asics tennis shoe at URacquet Shop",
- "shoe_tan.jpg":"A tennis shoe on the shelf by the window at URacquet Shop",
+ "shoe_tan.jpg":"A K-Swiss tennis shoe on the shelf by the window at URacquet Shop",
  "accessories_wall.jpg":"Overgrips, replacement grips and dampeners from Yonex, Head, Babolat, Tecnifibre, Gamma and Solinco on the accessories wall",
  "bags_wall.jpg":"Babolat, Wilson and Head racquet bags hanging at URacquet Shop",
  "tennis_balls.jpg":"Cans of Tecnifibre, Wilson and Dunlop tennis balls on the shelf at URacquet Shop",
  "plush_keychain.jpg":"A plush tennis-ball keychain on the accessories wall",
  # earlier photos still in use
- "wix_13.jpg":"Mark Kuczynski measuring a racquet's balance and swing weight on a diagnostic machine",
  "wix_05.jpg":"Reels of Wilson, Head and Yonex tennis string",
- "wix_10.jpg":"A customer swinging a demo racquet inside URacquet Shop",
  "wix_12.jpg":"The outdoor courts at Penn Tennis Center in Penn Park",
  "wix_04.jpg":"Snow-covered tennis courts with the Philadelphia skyline behind",
  "wix_02.jpeg":"Arthur Ashe Stadium during the US Open",
@@ -291,13 +288,13 @@ PAGES = [
 <p>At URacquet Shop, your racquet is strung by Mark Kuczynski, USRSA Certified Master Racquet Technician. A free in-person consultation is available at the shop. Every racquet gets the same attention to detail Mark gives a professional at a major tournament — a steady, consistent string bed every time you step on the court. Eliminate the “what ifs” that follow a racquet strung by a friend or neighbor: string with the professional who has become the go-to racquet stringer in Philadelphia.</p>
 <ul class="price-list"><li><span>String installation labor</span><b>$26.50 per racquet</b></li><li><span>String</span><b>varies by selection</b></li><li><span>Bring your own string</span><b>labor only</b></li></ul>
 <p class="note">Rush and appointment stringing are provided on an as-available basis at the shop’s discretion. Please call ahead to schedule rush requests before dropping off your racquet.</p>
-<div class="gallery two tall">
-<figure class="figure">{pic("mark_stringing.jpg")}<figcaption>Pulling tension on the stringing machine.</figcaption></figure>
-<figure class="figure">{pic("mark_weaving.jpg")}<figcaption>Weaving the crosses by hand.</figcaption></figure>
-</div>
+<figure class="figure narrow">{pic("mark_stringing.jpg")}<figcaption>Pulling tension on the stringing machine.</figcaption></figure>
 <h2 id="customization">Customization</h2>
 <p>Racquet customization alters a racquet’s existing specifications — static weight, swing weight, twist weight and balance — to a custom set requested by the player. Mark has years of experience matching and customizing racquets for the region’s most skilled and advanced players. Because every project is different, an exact price is quoted after the racquet’s current specifications are measured; contact the shop with a description of your project for a rough estimate. We use modern digital equipment for every customization.</p>
-<figure class="figure">{pic("wix_13.jpg")}<figcaption>Measuring racquet twist weight before a customization.</figcaption></figure>
+<div class="gallery two ratio43">
+<figure class="figure">{pic("customization_measuring.jpg")}<figcaption>Measuring racquet twist weight before a customization.</figcaption></figure>
+<figure class="figure">{pic("customization_readout.jpg")}<figcaption>Static weight, swing weight, balance and twist weight on the readout.</figcaption></figure>
+</div>
 <h2 id="grips">Grip replacement</h2>
 <p>A fresh grip is one of the most important — and most neglected — ways to prevent arm injury. A slippery, deteriorated grip makes your hand work harder to hold the racquet, building tension up the kinetic chain into your wrist and elbow. We install base grips professionally, and we’ll install your overgrip while teaching you how to do it yourself.</p>
 <ul class="price-list"><li><span>Replacement base grip installation</span><b>$5 + grip</b></li><li><span>Overgrip installation</span><b>free + grip</b></li></ul>
@@ -338,18 +335,17 @@ PAGES = [
 <p>Keep your racquet in top condition with our base grips, overgrips and dampeners. Caps, visors and wristbands for all weather conditions. Premium and championship tennis balls from Wilson, Dunlop, Tecnifibre and Diadem. And try on the latest tennis shoes from <strong>K-Swiss, Wilson, Adidas and Asics</strong>.</p>
 <div class="gallery two wide">
 <figure class="figure">{pic("shoe_asics.jpg")}<figcaption>Asics</figcaption></figure>
-<figure class="figure">{pic("shoe_tan.jpg")}<figcaption>Tennis shoes by the window</figcaption></figure>
+<figure class="figure">{pic("shoe_tan.jpg")}<figcaption>K-Swiss</figcaption></figure>
 </div>
 <div class="gallery sq">
 <figure class="figure">{pic("accessories_wall.jpg")}<figcaption>Grips, overgrips and dampeners</figcaption></figure>
 <figure class="figure">{pic("bags_wall.jpg")}<figcaption>Babolat, Wilson and Head bags</figcaption></figure>
 <figure class="figure">{pic("tennis_balls.jpg")}<figcaption>Tecnifibre, Wilson and Dunlop balls</figcaption></figure>
-<figure class="figure">{pic("plush_keychain.jpg")}<figcaption>Plush tennis-ball keychains</figcaption></figure>
+<figure class="figure">{pic("plush_keychain.jpg", cls="mid")}<figcaption>Plush tennis-ball keychains</figcaption></figure>
 </div>
 <h2>In stock now</h2>
 <div class="grid"><div class="card"><h3>Wilson Defyer</h3><p>98 Pro, 100 and 100L</p></div><div class="card"><h3>Head Extreme</h3><p>MP and Pro with Hy-bor technology</p></div><div class="card"><h3>Dunlop FX 500</h3><p>FX 500 and FX 500 Tour</p></div><div class="card"><h3>Babolat Pure Aero</h3><p>98, 100 and Team</p></div><div class="card"><h3>Wilson Blade V10</h3><p>98 and 100</p></div><div class="card"><h3>Tecnifibre Fire</h3><p>98 and 100</p></div><div class="card"><h3>Yonex Ezone</h3><p>98 and 100</p></div><div class="card"><h3>Diadem Axis</h3><p>98, 100 and Project Bublik</p></div></div>
 <p style="margin-top:1em">More racquet lines and models available including the Head Speed and Gravity, Babolat Pure Drive and Strike, Wilson Ultra, Clash and Pro Staff, Tecnifibre T-Fight, as well as options for advanced juniors and children.</p>
-<figure class="figure" style="margin-top:1.2em">{pic("junior_racquets.jpg")}<figcaption>Junior racquets on the rack.</figcaption></figure>
 <p style="margin-top:1.2em"><a class="btn outline" href="{P["instagram"]}" rel="noopener">See what just came in — @uracquetshop on Instagram</a></p>
 </div></section>'''),
 
@@ -370,12 +366,11 @@ PAGES = [
  <li><strong>Keep demoing:</strong> pay another $40 for a second 7-day period. If you buy after two periods, a single $35 credit applies. Demos are limited to 14 consecutive days (two periods).</li>
  <li><strong>Not buying yet:</strong> your demo account closes; the $35 credit stays available on a new racquet purchase for <strong>60 days</strong>.</li></ul></li></ol>
 <p>Just want to try one racquet? Pay just $20 for a seven-day demo with a $15 credit toward your new racquet purchase.</p>
-<figure class="figure sq">{pic("mark_checking_racquet.jpg")}<figcaption>Start with a free in-shop consultation.</figcaption></figure>
+<figure class="figure">{pic("demo_racquets.jpg")}<figcaption>Demo racquets on the rack.</figcaption></figure>
 <h2>Other things to know</h2>
 <ul><li>Racquets not returned after 7 days incur a late fee of <strong>$8 plus tax per day</strong>.</li><li>Racquets not returned after 10 days are charged at full retail — typically <strong>$250–305 per racquet</strong>.</li></ul>
 <h2>Get the most out of your demo</h2>
 <p>Plan specific court time before you pick up demos — account for weather, vacations and court availability. We don’t recommend playing serious matches with demo racquets; the best test is a hitting session with a coach or a more experienced partner, where you can evaluate in a more controlled hitting environment. Can’t decide? Ask your coach or hitting partner for feedback first, then come back for a consultation.</p>
-<figure class="figure">{pic("wix_10.jpg")}<figcaption>Trying a demo racquet in the shop.</figcaption></figure>
 <h2>Frequently asked</h2>{faq_html(demo_faq)}
 <p style="margin-top:1.5em"><a class="btn green" href="tel:{P["tel"]}">Call to book a consultation</a></p>
 </div></section>'''),
@@ -419,12 +414,10 @@ PAGES = [
 <p>URacquet Shop owner Mark Kuczynski, a United States Racquet Stringing Association (USRSA) Master Racquet Technician, brings extensive experience stringing at the highest levels of tennis. As a multi-year member of the ATP 250 Winston-Salem Open stringing team, he coordinated racquet logistics and delivered precision stringing for the world’s top-ranked professionals. In 2026 he strung for the players at the Columbus Challenger, the ATP Challenger Tour event at Ohio State University. His tournament experience includes the 2023 and 2024 stringing teams at the Eddie Herr International Junior Championships at IMG Academy, where he strung for leading juniors and for multiple top-50 professionals conducting training blocks at IMG.</p>
 <p>Based in Philadelphia, Mark has been the dedicated full-time stringer for the University of Pennsylvania’s varsity tennis programs since 2022, and has worked for numerous NCAA and Ivy League programs including Wake Forest, Ohio State, the University of Georgia, Princeton, Harvard and Columbia. He has been the primary stringer and team leader for multiple ITA Northeast Regional Championships and for the ECAC Championships three years running. His commitment to professional service is underscored by training from multiple Master Racquet Technicians and Grand Slam–experienced stringers.</p>
 <figure class="figure">{pic("mark_portrait.jpg")}</figure>
-<p>In March 2026, Mark opened URacquet Shop in West Philadelphia, blocks from the University of Pennsylvania and Drexel University, to give Philadelphia’s club players and NCAA athletes alike access to Master Racquet Technician services — and the chance to pick his brain on the latest racquet and string technology.</p>
-<figure class="figure">{pic("mark_mounting.jpg")}<figcaption>On the machine at 4711 Pine Street.</figcaption></figure>
-<p>When not in the shop or on court, Mark is at home with his wife and their cats.</p>
+<p>In March 2026, Mark opened URacquet Shop in West Philadelphia, blocks from the University of Pennsylvania and Drexel University, to give Philadelphia’s club players and NCAA athletes alike access to Master Racquet Technician services — and the chance to pick his brain on the latest racquet and string technology.</p><p>When not in the shop or on court, Mark is at home with his wife and their cats.</p>
 <h2>Credentials</h2>
 <ul><li>USRSA Master Racquet Technician</li><li>University of Pennsylvania varsity tennis — full-time stringer since 2022</li><li>WTA 125 Philadelphia Open (2026) — team leader, manager and head stringer</li><li>ATP 250 Winston-Salem Open — multi-year stringing team member</li><li>Columbus Challenger (ATP Challenger Tour), Ohio State University — 2026</li><li>Eddie Herr International Junior Championships, IMG Academy — 2023, 2024</li><li>ITA Northeast Regional Championships; ECAC Championships (three years) — primary stringer and team lead</li><li>NCAA and Ivy League programs served: Wake Forest, Ohio State, Georgia, Princeton, Harvard, Columbia</li></ul>
-<figure class="figure">{pic("wix_13.jpg")}<figcaption>Measuring racquet twist weight before a customization.</figcaption></figure>
+<figure class="figure">{pic("customization_measuring.jpg")}<figcaption>Measuring racquet twist weight before a customization.</figcaption></figure>
 <p><a class="btn outline" href="/press/">Read the press →</a></p>
 </div></section>'''),
 
