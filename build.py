@@ -55,6 +55,7 @@ ALT = {
  "shoes_tryon.jpg":"A customer lacing up a pair of Wilson tennis shoes in the shop, with K-Swiss, Wilson and Asics shoe boxes stacked behind",
  "string_reels_yonex.jpg":"A stack of Yonex string reels beside the Head racquet guide at URacquet Shop",
  "string_luxilon.jpg":"Luxilon string sets and reels on the counter at URacquet Shop",
+ "window_lucky_cat.jpg":"The shop window at 4711 Pine Street: a giant Babolat tennis ball and a beckoning lucky cat",
  "wix_03.jpg":"A USTA National Championships banner on a court fence",
  "squash_racquets.jpg":"Tecnifibre Carboflex squash racquets on the racquet wall at URacquet Shop",
  "squash_string.jpg":"Reels of Tecnifibre squash string, including Tecnifibre 305, at URacquet Shop",
@@ -427,7 +428,7 @@ PAGES = [
 <p><a class="btn outline" href="/press/">Read the press →</a></p>
 </div></section>'''),
 
- dict(url="/visit/", nav="Visit", hero="wall_racquets_wide.jpg",
+ dict(url="/visit/", nav="Visit", hero="window_lucky_cat.jpg", hero_pos="70% 30%",
   title="Visit URacquet Shop — 4711 Pine St, West Philadelphia — Hours & Parking",
   description="URacquet Shop, 4711 Pine Street, Philadelphia, PA 19143. Hours, free parking on Pine Street, directions from Penn and Drexel, phone (215) 586-3649.",
   h1="Visit URacquet Shop — 4711 Pine St, West Philadelphia",

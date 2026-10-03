@@ -3,7 +3,7 @@ url: /visit/
 title: Visit URacquet Shop — 4711 Pine St, West Philadelphia — Hours & Parking
 description: URacquet Shop, 4711 Pine Street, Philadelphia, PA 19143. Hours, free parking on Pine Street, directions from Penn and Drexel, phone (215) 586-3649.
 h1: Visit URacquet Shop — 4711 Pine St, West Philadelphia
-hero_image: wall_racquets_wide.jpg (10/3/26 shoot; was wix_14.jpg)
+hero_image: window_lucky_cat.jpg (DSC07886, 10/3/26 — the shop window with the giant Babolat ball and the lucky cat; was wall_racquets_wide, before that wix_14)
 ---
 
 ## Hours
