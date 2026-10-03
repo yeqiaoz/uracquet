@@ -3,7 +3,7 @@ url: /press/
 title: In the Press — Mark Kuczynski & URacquet Shop
 description: Court Theory's profile of URacquet Shop's Mark Kuczynski, stringer for the inaugural WTA 125 Philadelphia Open, plus tour and collegiate stringing credits.
 h1: In the Press
-hero_image: wix_03.jpg (USTA banner) · body photo: wix_02.jpeg (Arthur Ashe Stadium)
+hero_image: wix_03.jpg (USTA banner) · body photo: ashe_stadium.jpg (Arthur Ashe Stadium from the upper deck; replaced wix_02 10/3/26)
 ---
 
 ## Court Theory — "Thank The Stringer" (Sept 7, 2026, by Allen McDuffee)

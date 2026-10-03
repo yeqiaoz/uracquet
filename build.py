@@ -50,7 +50,7 @@ ALT = {
  "wix_05.jpg":"Reels of Wilson, Head and Yonex tennis string",
  "wix_12.jpg":"The outdoor courts at Penn Tennis Center in Penn Park",
  "wix_04.jpg":"Snow-covered tennis courts with the Philadelphia skyline behind",
- "wix_02.jpeg":"Arthur Ashe Stadium during the US Open",
+ "ashe_stadium.jpg":"Arthur Ashe Stadium during a US Open day session, seen from the upper deck",
  "wix_03.jpg":"A USTA National Championships banner on a court fence",
  "squash_racquets.jpg":"Tecnifibre Carboflex squash racquets on the racquet wall at URacquet Shop",
  "squash_string.jpg":"Reels of Tecnifibre squash string, including Tecnifibre 305, at URacquet Shop",
@@ -403,7 +403,7 @@ PAGES = [
 <p style="margin-top:1.5em"><a class="btn green" href="tel:{P["tel"]}">Call {P["phone"]}</a> &nbsp; <a class="btn outline" href="/visit/">Hours &amp; directions</a></p>
 </div></section>'''),
 
- dict(url="/about/", nav="About", hero="wix_02.jpeg",
+ dict(url="/about/", nav="About", hero="ashe_stadium.jpg",
   title="Mark Kuczynski, USRSA Master Racquet Technician — Penn's Stringer | URacquet Shop",
   description="Meet Mark Kuczynski: USRSA Master Racquet Technician, stringer for the ATP and WTA Tours, Eddie Herr, NCAA Division I programs, and the University of Pennsylvania since 2022. Owner of URacquet Shop, West Philadelphia.",
   h1="Mark Kuczynski, USRSA Master Racquet Technician",
@@ -468,7 +468,7 @@ PAGES = [
 <p><a class="btn outline" href="{P["press_url"]}" rel="noopener">Read the article at Court Theory →</a></p>
 <h2>Professional summary</h2>
 <ul><li>WTA 125 Philadelphia Open (2026) — team leader, manager and head stringer</li><li>ATP 250 Winston-Salem Open — stringing team (multi-year)</li><li>Columbus Challenger (ATP Challenger Tour), Ohio State University — 2026</li><li>Eddie Herr International Junior Championships — 2023, 2024</li><li>University of Pennsylvania varsity tennis — stringer since 2022</li><li>ITA Northeast Regional Championships · ECAC Championships</li></ul>
-<figure class="figure">{pic("wix_02.jpeg")}</figure>
+<figure class="figure">{pic("ashe_stadium.jpg")}<figcaption>Arthur Ashe Stadium, US Open.</figcaption></figure>
 </div></section>'''),
 ]
 
