@@ -51,6 +51,8 @@ ALT = {
  "wix_12.jpg":"The outdoor courts at Penn Tennis Center in Penn Park",
  "wix_04.jpg":"Snow-covered tennis courts with the Philadelphia skyline behind",
  "ashe_stadium.jpg":"Arthur Ashe Stadium during a US Open day session, seen from the upper deck",
+ "squash_gear.jpg":"Tecnifibre Carboflex squash racquets, double-yellow-dot squash balls and grips at URacquet Shop",
+ "shoes_tryon.jpg":"A customer lacing up a pair of Wilson tennis shoes in the shop, with K-Swiss, Wilson and Asics shoe boxes stacked behind",
  "wix_03.jpg":"A USTA National Championships banner on a court fence",
  "squash_racquets.jpg":"Tecnifibre Carboflex squash racquets on the racquet wall at URacquet Shop",
  "squash_string.jpg":"Reels of Tecnifibre squash string, including Tecnifibre 305, at URacquet Shop",
@@ -331,6 +333,7 @@ PAGES = [
 <figure class="figure">{pic("wix_05.jpg")}</figure>
 <h2>Accessories and shoes</h2>
 <p>Keep your racquet in top condition with our base grips, overgrips and dampeners. Caps, visors and wristbands for all weather conditions. Premium and championship tennis balls from Wilson, Dunlop, Tecnifibre and Diadem. And try on the latest tennis shoes from <strong>K-Swiss, Wilson, Adidas and Asics</strong>.</p>
+<figure class="figure">{pic("shoes_tryon.jpg")}<figcaption>Trying on a pair of Wilson shoes.</figcaption></figure>
 <div class="gallery two wide">
 <figure class="figure">{pic("shoe_asics.jpg")}<figcaption>Asics</figcaption></figure>
 <figure class="figure">{pic("shoe_tan.jpg")}<figcaption>K-Swiss</figcaption></figure>
@@ -374,7 +377,7 @@ PAGES = [
 <p style="margin-top:1.5em"><a class="btn green" href="tel:{P["tel"]}">Call to book a consultation</a></p>
 </div></section>'''),
 
- dict(url="/squash/", nav="Squash", hero="accessories_wall.jpg",
+ dict(url="/squash/", nav="Squash", hero="squash_gear.jpg", hero_pos="center 35%",
   title="Squash Racquet Stringing in Philadelphia — Near the Specter Center | URacquet Shop",
   description="Squash racquet stringing by a USRSA Master Racquet Technician — $26.50 labor plus string, minutes from the Arlen Specter US Squash Center, Penn and Drexel. Ashaway and Tecnifibre squash string. 4711 Pine St, West Philadelphia.",
   h1="Squash Racquet Stringing in Philadelphia",

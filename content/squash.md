@@ -3,7 +3,7 @@ url: /squash/
 title: Squash Racquet Stringing in Philadelphia — Near the Specter Center | URacquet Shop
 description: Squash racquet stringing by a USRSA Master Racquet Technician — $26.50 labor plus string, minutes from the Arlen Specter US Squash Center, Penn and Drexel. Ashaway and Tecnifibre squash string. 4711 Pine St, West Philadelphia.
 h1: Squash Racquet Stringing in Philadelphia
-hero_image: accessories_wall.jpg (10/3/26 shoot; was wix_11.jpg)
+hero_image: squash_gear.jpg (DSC07877, 10/3/26 — Tecnifibre Carboflex racquets, balls and grips; was accessories_wall, before that wix_11)
 ---
 
 ## Squash stringing
