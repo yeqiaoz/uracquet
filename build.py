@@ -50,14 +50,14 @@ ALT = {
  "wix_12.jpg":"The outdoor courts at Penn Tennis Center in Penn Park",
  "wix_04.jpg":"Snow-covered tennis courts with the Philadelphia skyline behind",
  "ashe_stadium.jpg":"Arthur Ashe Stadium during a US Open day session, seen from the upper deck",
- "squash_gear.jpg":"Tecnifibre Carboflex squash racquets, double-yellow-dot squash balls and grips at URacquet Shop",
+ "squash_gear.jpg":"Tecnifibre Carboflex X-Top squash racquets, double-yellow-dot squash balls and grips at URacquet Shop",
  "shoes_tryon.jpg":"A customer lacing up a pair of Wilson tennis shoes in the shop, with K-Swiss, Wilson and Asics shoe boxes stacked behind",
  "string_reels_yonex.jpg":"A stack of Yonex string reels beside the Head racquet guide at URacquet Shop",
  "string_luxilon.jpg":"Luxilon string sets and reels on the counter at URacquet Shop",
  "stringing_machine.jpg":"A racquet mounted on the Wilson stringing machine at URacquet Shop, Mark Kuczynski's hands on the string bed",
  "window_lucky_cat.jpg":"The shop window at 4711 Pine Street: a giant Babolat tennis ball and a beckoning lucky cat",
  "wix_03.jpg":"A USTA National Championships banner on a court fence",
- "squash_racquets.jpg":"Tecnifibre Carboflex squash racquets on the racquet wall at URacquet Shop",
+ "squash_racquets.jpg":"Tecnifibre Carboflex X-Top squash racquets on the racquet wall at URacquet Shop",
  "squash_string.jpg":"Reels of Tecnifibre squash string, including Tecnifibre 305, at URacquet Shop",
  "squash_eyewear.jpg":"Tecnifibre protective squash eyewear in stock at URacquet Shop",
  "squash_grips.jpg":"Karakal PU Super Grip replacement grips for squash racquets",
@@ -234,7 +234,7 @@ squash_faq = [
  ("How much does it cost to string a squash racquet?","$26.50 labor per racquet, plus the string you choose — same as tennis. Bring your own string and pay labor only."),
  ("What tension should I string my squash racquet at?","Much lower than tennis — most squash racquets play best in the low-to-mid 20s (lbs), where a couple of pounds changes the whole feel. We talk it through before every job."),
  ("How long does squash stringing take?","Turnaround depends on the queue — many racquets are ready the same or next day. Call ahead for rush requests."),
- ("Do you sell squash racquets and string?","Yes — Tecnifibre Carboflex squash racquets, squash string from Tecnifibre (including 305) and Ashaway, Karakal grips, protective eyewear and double-yellow-dot balls. Call to confirm current models and weights."),
+ ("Do you sell squash racquets and string?","Yes — Tecnifibre Carboflex X-Top squash racquets, squash string from Tecnifibre (including 305 and Dynamix) and Ashaway, Karakal grips, protective eyewear and double-yellow-dot balls. Call to confirm current models and weights."),
 ]
 
 PAGES = [
@@ -295,8 +295,8 @@ PAGES = [
 <h2 id="customization">Customization</h2>
 <p>Racquet customization alters a racquet’s existing specifications — static weight, swing weight, twist weight and balance — to a custom set requested by the player. Mark has years of experience matching and customizing racquets for the region’s most skilled and advanced players. Because every project is different, an exact price is quoted after the racquet’s current specifications are measured; contact the shop with a description of your project for a rough estimate. We use modern digital equipment for every customization.</p>
 <div class="gallery two ratio43">
-<figure class="figure">{pic("customization_measuring.jpg")}<figcaption>Measuring racquet twist weight before a customization.</figcaption></figure>
-<figure class="figure">{pic("customization_readout.jpg")}<figcaption>Static weight, swing weight, balance and twist weight on the readout.</figcaption></figure>
+<figure class="figure">{pic("customization_measuring.jpg")}<figcaption>Measuring racquet twist weight on the Head diagnostic machine before a customization at URacquet Shop.</figcaption></figure>
+<figure class="figure">{pic("customization_readout.jpg")}<figcaption>The readout: static weight, swing weight, balance and twist weight — the four numbers behind every racquet customization.</figcaption></figure>
 </div>
 <h2 id="grips">Grip replacement</h2>
 <p>A fresh grip is one of the most important — and most neglected — ways to prevent arm injury. A slippery, deteriorated grip makes your hand work harder to hold the racquet, building tension up the kinetic chain into your wrist and elbow. We install base grips professionally, and we’ll install your overgrip while teaching you how to do it yourself.</p>
@@ -326,29 +326,29 @@ PAGES = [
 <h2>Racquets</h2>
 <p>We carry the latest generation of racquets from <strong>Wilson, Head, Babolat, Tecnifibre, Dunlop, Diadem and Yonex</strong>. Our <a href="/demo/">racquet demo program</a> makes upgrading easy and helps new players choose the racquet that suits them. Looking for a specific model and grip size? Call to confirm availability.</p>
 <div class="gallery two sq">
-<figure class="figure">{pic("racquet_diadem_axis.jpg")}<figcaption>Diadem Axis — Project Bublik</figcaption></figure>
-<figure class="figure">{pic("racquet_yonex_ezone.jpg")}<figcaption>Yonex Ezone 100</figcaption></figure>
+<figure class="figure">{pic("racquet_diadem_axis.jpg")}<figcaption>Diadem Axis Project Bublik tennis racquet, in stock at URacquet Shop, West Philadelphia</figcaption></figure>
+<figure class="figure">{pic("racquet_yonex_ezone.jpg")}<figcaption>Yonex Ezone 100 tennis racquet on the wall at URacquet Shop</figcaption></figure>
 </div>
 <h2>String</h2>
 <p>Stringing is our specialty. Your racquet is strung exclusively by certified Master Racquet Technician Mark Kuczynski, with experience on the ATP Tour. Before every job, we talk through the string that suits your swing and style of play. We carry every type of string — monofilament polyester and co-polymer, multifilament, synthetic, natural gut, and specialty strings such as kevlar and zyex — from the brands used on tour:</p>
 <ul class="brands"><li>Luxilon</li><li>Wilson</li><li>Babolat</li><li>Head</li><li>Tecnifibre</li><li>Solinco</li><li>Ashaway</li><li>Signum Pro</li><li>Gosen</li><li>MSV</li></ul>
 <p>You can also bring your own string and pay only the <a href="/services/#stringing">installation labor fee</a>.</p>
 <div class="gallery two sq">
-<figure class="figure">{pic("string_reels_yonex.jpg")}<figcaption>Yonex reels</figcaption></figure>
-<figure class="figure">{pic("string_luxilon.jpg")}<figcaption>Luxilon sets</figcaption></figure>
+<figure class="figure">{pic("string_reels_yonex.jpg")}<figcaption>Reels of Yonex Poly Tour Pro tennis string at the stringing bench</figcaption></figure>
+<figure class="figure">{pic("string_luxilon.jpg")}<figcaption>Luxilon string sets — Element, Eco Spin and more — the polyester strings used on tour</figcaption></figure>
 </div>
 <h2>Accessories and shoes</h2>
 <p>Keep your racquet in top condition with our base grips, overgrips and dampeners. Caps, visors and wristbands for all weather conditions. Premium and championship tennis balls from Wilson, Dunlop, Tecnifibre and Diadem. And try on the latest tennis shoes from <strong>K-Swiss, Wilson, Adidas and Asics</strong>.</p>
-<figure class="figure">{pic("shoes_tryon.jpg")}<figcaption>Trying on a pair of Wilson shoes.</figcaption></figure>
+<figure class="figure">{pic("shoes_tryon.jpg")}<figcaption>Trying on Wilson tennis shoes in the shop — K-Swiss, Wilson and Asics in stock</figcaption></figure>
 <div class="gallery two wide">
-<figure class="figure">{pic("shoe_asics.jpg")}<figcaption>Asics</figcaption></figure>
-<figure class="figure">{pic("shoe_tan.jpg")}<figcaption>K-Swiss</figcaption></figure>
+<figure class="figure">{pic("shoe_asics.jpg")}<figcaption>Asics tennis shoes</figcaption></figure>
+<figure class="figure">{pic("shoe_tan.jpg")}<figcaption>K-Swiss tennis shoes</figcaption></figure>
 </div>
 <div class="gallery sq">
-<figure class="figure">{pic("accessories_wall.jpg")}<figcaption>Grips, overgrips and dampeners</figcaption></figure>
-<figure class="figure">{pic("bags_wall.jpg")}<figcaption>Babolat, Wilson and Head bags</figcaption></figure>
-<figure class="figure">{pic("tennis_balls.jpg")}<figcaption>Tecnifibre, Wilson and Dunlop balls</figcaption></figure>
-<figure class="figure">{pic("plush_keychain.jpg", cls="mid")}<figcaption>Plush tennis-ball keychains</figcaption></figure>
+<figure class="figure">{pic("accessories_wall.jpg")}<figcaption>Replacement grips, overgrips and vibration dampeners from Yonex, Head, Babolat, Tecnifibre, Gamma and Solinco</figcaption></figure>
+<figure class="figure">{pic("bags_wall.jpg")}<figcaption>Babolat, Wilson and Head tennis racquet bags</figcaption></figure>
+<figure class="figure">{pic("tennis_balls.jpg")}<figcaption>Tecnifibre, Wilson and Dunlop tennis balls by the can</figcaption></figure>
+<figure class="figure">{pic("plush_keychain.jpg", cls="mid")}<figcaption>Plush tennis-ball keychains and small gifts for tennis players</figcaption></figure>
 </div>
 <h2>In stock now</h2>
 <div class="grid"><div class="card"><h3>Wilson Defyer</h3><p>98 Pro, 100 and 100L</p></div><div class="card"><h3>Head Extreme</h3><p>MP and Pro with Hy-bor technology</p></div><div class="card"><h3>Dunlop FX 500</h3><p>FX 500 and FX 500 Tour</p></div><div class="card"><h3>Babolat Pure Aero</h3><p>98, 100 and Team</p></div><div class="card"><h3>Wilson Blade V10</h3><p>98 and 100</p></div><div class="card"><h3>Tecnifibre Fire</h3><p>98 and 100</p></div><div class="card"><h3>Yonex Ezone</h3><p>98 and 100</p></div><div class="card"><h3>Diadem Axis</h3><p>98, 100 and Project Bublik</p></div></div>
@@ -373,19 +373,19 @@ PAGES = [
  <li><strong>Keep demoing:</strong> pay another $40 for a second 7-day period. If you buy after two periods, a single $35 credit applies. Demos are limited to 14 consecutive days (two periods).</li>
  <li><strong>Not buying yet:</strong> your demo account closes; the $35 credit stays available on a new racquet purchase for <strong>60 days</strong>.</li></ul></li></ol>
 <p>Just want to try one racquet? Pay just $20 for a seven-day demo with a $15 credit toward your new racquet purchase.</p>
-<figure class="figure">{pic("mark_shop_interior.jpg")}<figcaption>Start with a free in-shop consultation.</figcaption></figure>
+<figure class="figure">{pic("mark_shop_interior.jpg")}<figcaption>Every demo starts with a free in-shop racquet consultation at URacquet Shop.</figcaption></figure>
 <h2>Other things to know</h2>
 <ul><li>Racquets not returned after 7 days incur a late fee of <strong>$8 plus tax per day</strong>.</li><li>Racquets not returned after 10 days are charged at full retail — typically <strong>$250–305 per racquet</strong>.</li></ul>
 <h2>Get the most out of your demo</h2>
 <p>Plan specific court time before you pick up demos — account for weather, vacations and court availability. We don’t recommend playing serious matches with demo racquets; the best test is a hitting session with a coach or a more experienced partner, where you can evaluate in a more controlled hitting environment. Can’t decide? Ask your coach or hitting partner for feedback first, then come back for a consultation.</p>
-<figure class="figure">{pic("demo_racquets.jpg")}<figcaption>Demo racquets on the rack.</figcaption></figure>
+<figure class="figure">{pic("demo_racquets.jpg")}<figcaption>The demo racquet rack: take three racquets home for seven days for $40.</figcaption></figure>
 <h2>Frequently asked</h2>{faq_html(demo_faq)}
 <p style="margin-top:1.5em"><a class="btn green" href="tel:{P["tel"]}">Call to book a consultation</a></p>
 </div></section>'''),
 
  dict(url="/squash/", nav="Squash", hero="squash_gear.jpg", hero_pos="center 35%",
   title="Squash Racquet Stringing in Philadelphia — Near the Specter Center | URacquet Shop",
-  description="Squash racquet stringing by a USRSA Master Racquet Technician — $26.50 labor plus string, minutes from the Arlen Specter US Squash Center, Penn and Drexel. Ashaway and Tecnifibre squash string. 4711 Pine St, West Philadelphia.",
+  description="Squash racquet stringing by a USRSA Master Racquet Technician — $26.50 labor plus string, minutes from the Arlen Specter US Squash Center, Penn and Drexel. Tecnifibre 305 and Dynamix and Ashaway squash string; Carboflex X-Top racquets. 4711 Pine St, West Philadelphia.",
   h1="Squash Racquet Stringing in Philadelphia",
   lead='<p class="lead">Squash racquets strung by a USRSA Master Racquet Technician — in the middle of American squash country, minutes from the Arlen Specter US Squash Center and Penn\u2019s Ringe Courts.</p>',
   cta=f'<div class="btns"><a class="btn primary" href="tel:{P["tel"]}">Call {P["phone"]}</a><a class="btn ghost" href="/services/#prices">See all prices</a></div>',
@@ -397,14 +397,14 @@ PAGES = [
 <ul class="price-list"><li><span>String installation labor</span><b>$26.50 per racquet</b></li><li><span>String</span><b>varies by selection</b></li><li><span>Bring your own string</span><b>labor only</b></li></ul>
 <p class="note">Rush and appointment stringing on request — call ahead before dropping off your racquet.</p>
 <h2>Squash string we carry</h2>
-<p>We stock squash string from <strong>Tecnifibre — including 305, the most-played string in squash — </strong>and <strong>Ashaway</strong>, the standard of American squash, in the thin gauges squash play demands. Not sure what suits your game? We talk through string and tension before every job, the same conversation we have with every tennis player.</p>
+<p>We stock squash string from <strong>Tecnifibre — including 305, the most-played string in squash, and Dynamix — </strong>and <strong>Ashaway</strong>, the standard of American squash, in the thin gauges squash play demands. Not sure what suits your game? We talk through string and tension before every job, the same conversation we have with every tennis player.</p>
 <h2>The squash wall</h2>
-<p><strong>Tecnifibre Carboflex squash racquets</strong> are on the wall, with <strong>Karakal PU Super Grips</strong>, <strong>double-yellow-dot balls</strong> and <strong>protective squash eyewear</strong> — required in college and junior play — on the racks beside them.</p>
+<p><strong>Tecnifibre Carboflex X-Top squash racquets</strong> are on the wall, with <strong>Karakal PU Super Grips</strong>, <strong>double-yellow-dot balls</strong> and <strong>protective squash eyewear</strong> — required in college and junior play — on the racks beside them.</p>
 <div class="gallery">
-<figure class="figure">{pic("squash_racquets.jpg")}<figcaption>Tecnifibre Carboflex racquets</figcaption></figure>
-<figure class="figure">{pic("squash_string.jpg")}<figcaption>Tecnifibre squash string — 305 on the reel</figcaption></figure>
-<figure class="figure">{pic("squash_eyewear.jpg")}<figcaption>Protective squash eyewear</figcaption></figure>
-<figure class="figure">{pic("squash_grips.jpg")}<figcaption>Karakal PU Super Grips</figcaption></figure>
+<figure class="figure">{pic("squash_racquets.jpg")}<figcaption>Tecnifibre Carboflex X-Top squash racquets on the wall at URacquet Shop, Philadelphia</figcaption></figure>
+<figure class="figure">{pic("squash_string.jpg")}<figcaption>Tecnifibre 305 squash string on the reel — Tecnifibre Dynamix also in stock</figcaption></figure>
+<figure class="figure">{pic("squash_eyewear.jpg")}<figcaption>Protective squash eyewear, required for college and junior play</figcaption></figure>
+<figure class="figure">{pic("squash_grips.jpg")}<figcaption>Karakal PU Super Grip replacement grips for squash racquets</figcaption></figure>
 </div>
 <h2>Philadelphia is squash country</h2>
 <p>The <a href="https://ussquash.org/community/specter-center/">Arlen Specter US Squash Center</a> — the national home of US Squash and host of the US Open Squash Championships — sits on Drexel\u2019s campus, minutes from the shop. Penn varsity squash plays at the Ringe Courts, and the Racquet Club of Philadelphia keeps the game\u2019s oldest traditions alive downtown. If you play squash in University City, a Master Racquet Technician is a short walk from your court.</p>
@@ -419,7 +419,7 @@ PAGES = [
   lead='<p class="lead">Owner of URacquet Shop. Stringer to tour professionals, international juniors, NCAA Division I programs — and the University of Pennsylvania since 2022.</p>',
   body=f'''
 <section class="band"><div class="wrap prose">
-<p>URacquet Shop owner Mark Kuczynski, a United States Racquet Stringing Association (USRSA) Master Racquet Technician, brings extensive experience stringing at the highest levels of tennis. As a multi-year member of the ATP 250 Winston-Salem Open stringing team, he coordinated racquet logistics and delivered precision stringing for the world’s top-ranked professionals. In 2026 he strung for the players at the Columbus Challenger, the ATP Challenger Tour event at Ohio State University. His tournament experience includes the 2023 and 2024 stringing teams at the Eddie Herr International Junior Championships at IMG Academy, where he strung for leading juniors and for multiple top-50 professionals conducting training blocks at IMG.</p>
+<p>URacquet Shop owner Mark Kuczynski, a United States Racquet Stringing Association (USRSA) Master Racquet Technician, brings extensive experience stringing at the highest levels of tennis. As a multi-year member of the ATP 250 Winston-Salem Open stringing team, he coordinated racquet logistics and delivered precision stringing for the world’s top-ranked professionals. In 2026 he was the stringing team manager and lead stringer for the inaugural WTA 125 Philadelphia Open, and strung for the players at the Columbus Challenger, the ATP Challenger Tour event at Ohio State University. His tournament experience includes the 2023 and 2024 stringing teams at the Eddie Herr International Junior Championships at IMG Academy, where he strung for leading juniors and for multiple top-50 professionals conducting training blocks at IMG.</p>
 <p>Based in Philadelphia, Mark has been the dedicated full-time stringer for the University of Pennsylvania’s varsity tennis programs since 2022, and has worked for numerous NCAA and Ivy League programs including Wake Forest, Ohio State, the University of Georgia, Princeton, Harvard and Columbia. He has been the primary stringer and team leader for multiple ITA Northeast Regional Championships and for the ECAC Championships three years running. His commitment to professional service is underscored by training from multiple Master Racquet Technicians and Grand Slam–experienced stringers.</p>
 <figure class="figure">{pic("mark_portrait.jpg")}</figure>
 <p>In March 2026, Mark opened URacquet Shop in West Philadelphia, blocks from the University of Pennsylvania and Drexel University, to give Philadelphia’s club players and NCAA athletes alike access to Master Racquet Technician services — and the chance to pick his brain on the latest racquet and string technology.</p><p>When not in the shop or on court, Mark is at home with his wife and their cats.</p>
@@ -460,7 +460,7 @@ PAGES = [
 <p>Stay up to date with the ATP and WTA Tours — and Philadelphia’s own WTA 125 event, where Mark ran the stringing operation in 2026. <a href="/press/">Read about it →</a></p>
 <h2>USTA &amp; Flex leagues</h2>
 <p>Recreational league tennis for every level — USTA Middle States leagues and Tennis Philly Flex Leagues. Achieve your competitive goals and make friends for life.</p>
-<figure class="figure">{pic("wix_12.jpg")}<figcaption>Penn Tennis Center, Penn Park.</figcaption></figure>
+<figure class="figure">{pic("wix_12.jpg")}<figcaption>Penn Tennis Center in Penn Park, home of Penn varsity tennis.</figcaption></figure>
 <h2>Need a racquet strung before your match?</h2>
 <p><a href="/services/">Stringing is $26.50 labor</a>; rush service is available on request. <a href="tel:{P["tel"]}">Call the shop</a>.</p>
 </div></section>'''),
@@ -477,7 +477,7 @@ PAGES = [
 <p><a class="btn outline" href="{P["press_url"]}" rel="noopener">Read the article at Court Theory →</a></p>
 <h2>Professional summary</h2>
 <ul><li>WTA 125 Philadelphia Open (2026) — team leader, manager and head stringer</li><li>ATP 250 Winston-Salem Open — stringing team (multi-year)</li><li>Columbus Challenger (ATP Challenger Tour), Ohio State University — 2026</li><li>Eddie Herr International Junior Championships — 2023, 2024</li><li>University of Pennsylvania varsity tennis — stringer since 2022</li><li>ITA Northeast Regional Championships · ECAC Championships</li></ul>
-<figure class="figure">{pic("ashe_stadium.jpg")}<figcaption>Arthur Ashe Stadium, US Open.</figcaption></figure>
+<figure class="figure">{pic("ashe_stadium.jpg")}<figcaption>Arthur Ashe Stadium at the US Open in Flushing Meadows, New York.</figcaption></figure>
 </div></section>'''),
 ]
 

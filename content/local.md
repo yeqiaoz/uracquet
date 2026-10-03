@@ -19,3 +19,5 @@ Recreational league tennis for every level — USTA Middle States leagues and Te
 
 ## Public Courts Near University City ([ASK] Mark's list)
 [e.g., Penn Park, Clark Park, Cobbs Creek, FDR Park — confirm]
+
+(10/3/26, Mark: photo captions rewritten to be descriptive and search-friendly — the captions quoted above are the live ones.)

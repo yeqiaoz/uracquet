@@ -3,7 +3,7 @@ url: /services/
 title: Tennis Racquet Stringing & Customization in Philadelphia — from $26.50 | URacquet Shop
 description: USRSA Master Racquet Technician stringing ($26.50 labor), racquet customization, grip replacement, grommets and grip build-up in West Philadelphia. Rush service available. Prices listed.
 h1: Tennis & Squash Racquet Stringing and Customization in Philadelphia
-hero_image: stringing_machine.jpg (DSC07803, 10/3/26 — pre-cropped middle band of the portrait frame (rows 840–1660 of 2048): racquet on the Wilson machine, Mark's hands, no face; replaced the wix_05 string collage) · body photos (10/3/26 shoot): no photo under Stringing (the pulling-tension frame was dropped 10/3 — Mark already appears on the front page); two-up under Customization — customization_measuring.jpg "Measuring racquet twist weight before a customization." + customization_readout.jpg "Static weight, swing weight, balance and twist weight on the readout." (DSC07868/DSC07876, added 10/3 evening; replaced wix_13)
+hero_image: stringing_machine.jpg (DSC07803, 10/3/26 — pre-cropped middle band of the portrait frame (rows 840–1660 of 2048): racquet on the Wilson machine, Mark's hands, no face; replaced the wix_05 string collage) · body photos (10/3/26 shoot): no photo under Stringing (the pulling-tension frame was dropped 10/3 — Mark already appears on the front page); two-up under Customization — customization_measuring.jpg "Measuring racquet twist weight on the Head diagnostic machine before a customization at URacquet Shop." + customization_readout.jpg "The readout: static weight, swing weight, balance and twist weight — the four numbers behind every racquet customization." (DSC07868/DSC07876, added 10/3 evening; replaced wix_13)
 ---
 
 ## Stringing
@@ -16,7 +16,7 @@ At URacquet Shop, your racquet is strung by Mark Kuczynski, USRSA Certified Mast
 [ASK] Add: typical turnaround (same day? next day?), and confirm squash stringing.
 
 ## Customization
-(Photo caption: "Measuring racquet twist weight before a customization.")
+(Photo caption: "Measuring racquet twist weight on the Head diagnostic machine before a customization at URacquet Shop.")
 Racquet customization alters a racquet's existing specifications — static weight, swing weight, twist weight and balance — to a custom set of specifications requested by the player. Mark has years of experience matching and customizing racquets for the region's most skilled and advanced players. Because every customization project is different, an exact price is quoted after the racquet's current specifications are measured. Contact the shop with a description of your project for a rough estimate. URacquet Shop uses modern digital equipment for every customization.
 
 ## Grip Replacement
@@ -46,3 +46,5 @@ A racquet handle can be built up to a more comfortable grip size — most common
 - Do you string squash racquets? — [ASK]
 - Do I need an appointment? — No for drop-off; call ahead for rush or appointment stringing.
 - What string should I use? — We talk it through before every job: polyester/co-poly, multifilament, synthetic gut, natural gut, kevlar and zyex — from Luxilon, Wilson, Babolat, Head, Tecnifibre, Solinco, Ashaway, Signum Pro, Gosen and MSV.
+
+(10/3/26, Mark: photo captions rewritten to be descriptive and search-friendly — the captions quoted above are the live ones.)

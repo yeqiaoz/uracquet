@@ -16,3 +16,5 @@ Court Theory, September 2026 · by Allen McDuffee. A profile of Mark's stringing
 - Eddie Herr International Junior Championships — 2023, 2024
 - University of Pennsylvania varsity tennis — stringer since 2022
 - ITA Northeast Regionals · ECAC Championships
+
+(10/3/26, Mark: photo captions rewritten to be descriptive and search-friendly — the captions quoted above are the live ones.)

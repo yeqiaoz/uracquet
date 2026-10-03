@@ -3,7 +3,7 @@ url: /squash/
 title: Squash Racquet Stringing in Philadelphia — Near the Specter Center | URacquet Shop
 description: Squash racquet stringing by a USRSA Master Racquet Technician — $26.50 labor plus string, minutes from the Arlen Specter US Squash Center, Penn and Drexel. Ashaway and Tecnifibre squash string. 4711 Pine St, West Philadelphia.
 h1: Squash Racquet Stringing in Philadelphia
-hero_image: squash_gear.jpg (DSC07877, 10/3/26 — Tecnifibre Carboflex racquets, balls and grips; was accessories_wall, before that wix_11)
+hero_image: squash_gear.jpg (DSC07877, 10/3/26 — Tecnifibre Carboflex X-Top racquets, balls and grips; was accessories_wall, before that wix_11)
 ---
 
 ## Squash stringing
@@ -21,3 +21,6 @@ Arlen Specter US Squash Center (national HQ of US Squash; US Open host) on Drexe
 - Tension — much lower than tennis; most squash racquets play best low-to-mid 20s lbs; talked through per job.
 - Turnaround — same/next day typical; rush by phone.
 - Racquets/string in stock — squash string from Ashaway and Tecnifibre; call for current racquet stock.
+
+(10/3/26, Mark: photo captions rewritten to be descriptive and search-friendly — the captions quoted above are the live ones.)
+(10/3/26, Mark: every Tecnifibre racquet reference reads "Carboflex X-Top" — his note said "XTop"; the racquets' labels read X-TOP, flagged — and every squash-string reference names Tecnifibre Dynamix beside 305.)
