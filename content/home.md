@@ -12,7 +12,7 @@ Strung by a USRSA Master Racquet Technician who strings for the ATP and WTA Tour
 [Call (215) 586-3649] [Get Directions] [See Services & Prices]
 
 ## Trust strip
-USRSA Master Racquet Technician · Penn Varsity's stringer since 2022 · ATP 250 Winston-Salem Open · WTA 125 Philadelphia Open · ATP Challenger Columbus · Eddie Herr International
+USRSA Master Racquet Technician · Penn Varsity's stringer since 2022 · ATP 250 Winston-Salem Open · WTA 125 Philadelphia Open · ATP Columbus Challenger · Eddie Herr International
 
 ## Intro (from the current site, edited)
 Welcome to URacquet Shop. Located in West Philadelphia, less than a mile from the University of Pennsylvania and Drexel University campuses, we are your destination for tennis and squash equipment and Master Racquet Technician stringing and customization in the Philadelphia area. Learn about our background, the services we offer, our racquet demo program, and our in-store products for every level of play.

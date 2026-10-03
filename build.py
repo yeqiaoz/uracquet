@@ -245,7 +245,7 @@ PAGES = [
   lead='<p class="lead">Strung by a USRSA Master Racquet Technician who strings for the ATP and WTA Tours, NCAA Division I programs and the University of Pennsylvania. One mile from Penn and Drexel.</p>',
   cta=f'<div class="btns"><a class="btn primary" href="tel:{P["tel"]}">Call {P["phone"]}</a><a class="btn ghost" href="{P["maps_dir"]}" rel="noopener">Get directions</a><a class="btn ghost" href="/services/">Services &amp; prices</a></div>',
   body=f'''
-<section class="trust"><div class="wrap"><ul><li>USRSA Master Racquet Technician</li><li>Penn varsity's stringer since 2022</li><li>ATP 250 Winston-Salem Open</li><li>WTA 125 Philadelphia Open</li><li>ATP Challenger Columbus</li><li>Eddie Herr International</li></ul></div></section>
+<section class="trust"><div class="wrap"><ul><li>USRSA Master Racquet Technician</li><li>Penn varsity's stringer since 2022</li><li>ATP 250 Winston-Salem Open</li><li>WTA 125 Philadelphia Open</li><li>ATP Columbus Challenger</li><li>Eddie Herr International</li></ul></div></section>
 <section class="band"><div class="wrap prose">
 <h2>Welcome to URacquet Shop</h2>
 <p>Located in West Philadelphia, less than a mile from the University of Pennsylvania and Drexel University campuses, we are your destination for tennis and squash equipment and Master Racquet Technician stringing and customization in the Philadelphia area. Learn about <a href="/about/">our background</a>, the <a href="/services/">services we offer</a>, our <a href="/demo/">racquet demo program</a>, and our <a href="/products/">in-store products</a> for every level of play.</p>
