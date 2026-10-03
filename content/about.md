@@ -3,7 +3,7 @@ url: /about/
 title: Mark Kuczynski, USRSA Master Racquet Technician — Penn's Stringer | URacquet Shop
 description: Meet Mark Kuczynski: USRSA Master Racquet Technician, stringer for the ATP and WTA Tours, Eddie Herr, NCAA Division I programs, and the University of Pennsylvania since 2022. Owner of URacquet Shop, West Philadelphia.
 h1: Mark Kuczynski, USRSA Master Racquet Technician
-hero_image: wix_02.jpeg (Arthur Ashe Stadium) · body photos (10/3/26 shoot): mark_portrait.jpg after the Penn paragraph; customization_measuring.jpg ("Measuring racquet twist weight before a customization.") after the credentials — mark_mounting and wix_13 removed 10/3 (too many)
+hero_image: wix_02.jpeg (Arthur Ashe Stadium) · body photos (10/3/26 shoot): mark_portrait.jpg after the Penn paragraph — the only body photo (Yeqiao 10/3: "About page only needs one Mark photo")
 ---
 
 ## About

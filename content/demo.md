@@ -3,7 +3,7 @@ url: /demo/
 title: Racquet Demo Program in Philadelphia — Try 3 Racquets for 7 Days | URacquet Shop
 description: Demo three tennis or squash racquets for seven days for $40, with a $35 credit toward your purchase. Free in-shop consultation at URacquet Shop, West Philadelphia.
 h1: Racquet Demo Program — Try 3 Racquets for 7 Days
-hero_image: wix_12.jpg (Penn courts) · body photos: demo_racquets.jpg "Demo racquets on the rack." (DSC07851 — the rack IS the demo fleet, per Yeqiao 10/3) after the single-racquet paragraph; the consultation photo and wix_10 removed (too many)
+hero_image: wix_12.jpg (Penn courts) · body photos: mark_shop_interior.jpg "Start with a free in-shop consultation." after the single-racquet paragraph (Yeqiao 10/3: reuse the former Visit-panel photo here); demo_racquets.jpg "Demo racquets on the rack." (DSC07851 — the rack IS the demo fleet) before the FAQ; wix_10 and the racquet-checking frame removed
 ---
 
 ## How It Works

@@ -3,7 +3,7 @@ url: /
 title: Racquet Stringing & Tennis Shop in West Philadelphia | URacquet Shop
 description: Master Racquet Technician stringing, customization, racquet demos and tennis gear in West Philadelphia — one mile from Penn and Drexel. 4711 Pine St. Call (215) 586-3649.
 h1: Master Racquet Stringing & Tennis Shop in West Philadelphia
-hero_image: shop_racquet_stack.jpg (10/3/26 shoot; also the OG image) · split-panel photos: wall_racquets_tags.jpg (demo), mark_portrait.jpg (Meet Mark), mark_shop_interior.jpg (Visit)
+hero_image: shop_racquet_stack.jpg (10/3/26 shoot; also the OG image) · split-panel photos: wall_racquets_tags.jpg (demo), mark_portrait.jpg (Meet Mark), wall_racquets_wide.jpg (Visit — a shop photo, not Mark; Yeqiao 10/3)
 ---
 
 ## Hero
