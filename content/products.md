@@ -3,7 +3,7 @@ url: /products/
 title: Tennis & Squash Racquets, String, Shoes & Accessories — West Philadelphia | URacquet Shop
 description: Wilson, Head, Babolat, Tecnifibre, Dunlop, Diadem and Yonex racquets; Luxilon, Solinco, Gosen and more string; tennis shoes from K-Swiss, Wilson, Adidas and Asics; grips, dampeners and balls — in stock at 4711 Pine St.
 h1: Tennis & Squash Racquets, String, Shoes & Accessories
-hero_image: wall_racquets_wide.jpg (10/3/26 shoot) · body photos: Racquets two-up — racquet_diadem_axis.jpg "Diadem Axis — Project Bublik" + racquet_yonex_ezone.jpg "Yonex Ezone 100"; String — wix_05.jpg; Accessories and shoes — shoes_tryon.jpg "Trying on a pair of Wilson shoes." (DSC07880, 10/3/26) above the two-up; shoe_asics.jpg "Asics" + shoe_tan.jpg "K-Swiss", then accessories_wall.jpg "Grips, overgrips and dampeners", bags_wall.jpg "Babolat, Wilson and Head bags", tennis_balls.jpg "Tecnifibre, Wilson and Dunlop balls", plush_keychain.jpg "Plush tennis-ball keychains"
+hero_image: wall_racquets_wide.jpg (10/3/26 shoot) · body photos: Racquets two-up — racquet_diadem_axis.jpg "Diadem Axis — Project Bublik" + racquet_yonex_ezone.jpg "Yonex Ezone 100"; String — two-up: string_reels_yonex.jpg "Yonex reels" + string_luxilon.jpg "Luxilon sets" (DSC07882/DSC07883, 10/3/26; replaced the wix_05 collage here — wix_05 is still the Services hero); Accessories and shoes — shoes_tryon.jpg "Trying on a pair of Wilson shoes." (DSC07880, 10/3/26) above the two-up; shoe_asics.jpg "Asics" + shoe_tan.jpg "K-Swiss", then accessories_wall.jpg "Grips, overgrips and dampeners", bags_wall.jpg "Babolat, Wilson and Head bags", tennis_balls.jpg "Tecnifibre, Wilson and Dunlop balls", plush_keychain.jpg "Plush tennis-ball keychains"
 ---
 
 ## Tennis Equipment

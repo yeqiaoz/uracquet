@@ -53,6 +53,8 @@ ALT = {
  "ashe_stadium.jpg":"Arthur Ashe Stadium during a US Open day session, seen from the upper deck",
  "squash_gear.jpg":"Tecnifibre Carboflex squash racquets, double-yellow-dot squash balls and grips at URacquet Shop",
  "shoes_tryon.jpg":"A customer lacing up a pair of Wilson tennis shoes in the shop, with K-Swiss, Wilson and Asics shoe boxes stacked behind",
+ "string_reels_yonex.jpg":"A stack of Yonex string reels beside the Head racquet guide at URacquet Shop",
+ "string_luxilon.jpg":"Luxilon string sets and reels on the counter at URacquet Shop",
  "wix_03.jpg":"A USTA National Championships banner on a court fence",
  "squash_racquets.jpg":"Tecnifibre Carboflex squash racquets on the racquet wall at URacquet Shop",
  "squash_string.jpg":"Reels of Tecnifibre squash string, including Tecnifibre 305, at URacquet Shop",
@@ -330,7 +332,10 @@ PAGES = [
 <p>Stringing is our specialty. Your racquet is strung exclusively by certified Master Racquet Technician Mark Kuczynski, with experience on the ATP Tour. Before every job, we talk through the string that suits your swing and style of play. We carry every type of string — monofilament polyester and co-polymer, multifilament, synthetic, natural gut, and specialty strings such as kevlar and zyex — from the brands used on tour:</p>
 <ul class="brands"><li>Luxilon</li><li>Wilson</li><li>Babolat</li><li>Head</li><li>Tecnifibre</li><li>Solinco</li><li>Ashaway</li><li>Signum Pro</li><li>Gosen</li><li>MSV</li></ul>
 <p>You can also bring your own string and pay only the <a href="/services/#stringing">installation labor fee</a>.</p>
-<figure class="figure">{pic("wix_05.jpg")}</figure>
+<div class="gallery two sq">
+<figure class="figure">{pic("string_reels_yonex.jpg")}<figcaption>Yonex reels</figcaption></figure>
+<figure class="figure">{pic("string_luxilon.jpg")}<figcaption>Luxilon sets</figcaption></figure>
+</div>
 <h2>Accessories and shoes</h2>
 <p>Keep your racquet in top condition with our base grips, overgrips and dampeners. Caps, visors and wristbands for all weather conditions. Premium and championship tennis balls from Wilson, Dunlop, Tecnifibre and Diadem. And try on the latest tennis shoes from <strong>K-Swiss, Wilson, Adidas and Asics</strong>.</p>
 <figure class="figure">{pic("shoes_tryon.jpg")}<figcaption>Trying on a pair of Wilson shoes.</figcaption></figure>
