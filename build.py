@@ -42,7 +42,7 @@ ALT = {
  "demo_racquets.jpg":"Demo racquets in a rack at URacquet Shop",
  "shoe_asics.jpg":"An Asics tennis shoe at URacquet Shop",
  "shoe_tan.jpg":"A K-Swiss tennis shoe on the shelf by the window at URacquet Shop",
- "accessories_wall.jpg":"Overgrips, replacement grips and dampeners from Yonex, Head, Babolat, Tecnifibre, Gamma and Solinco on the accessories wall",
+ "accessories_wall.jpg":"Overgrips, replacement grips and dampeners from Yonex, Head, Babolat, Tecnifibre, Gamma, Solinco, Wilson, Tourna and Diadem on the accessories wall",
  "bags_wall.jpg":"Babolat, Wilson and Head racquet bags hanging at URacquet Shop",
  "tennis_balls.jpg":"Cans of Tecnifibre, Wilson and Dunlop tennis balls on the shelf at URacquet Shop",
  "plush_keychain.jpg":"A plush tennis-ball keychain on the accessories wall",
@@ -345,7 +345,7 @@ PAGES = [
 <figure class="figure">{pic("shoe_tan.jpg")}<figcaption>K-Swiss tennis shoes</figcaption></figure>
 </div>
 <div class="gallery sq">
-<figure class="figure">{pic("accessories_wall.jpg")}<figcaption>Replacement grips, overgrips and vibration dampeners from Yonex, Head, Babolat, Tecnifibre, Gamma and Solinco</figcaption></figure>
+<figure class="figure">{pic("accessories_wall.jpg")}<figcaption>Replacement grips, overgrips and vibration dampeners from Yonex, Head, Babolat, Tecnifibre, Gamma, Solinco, Wilson, Tourna and Diadem</figcaption></figure>
 <figure class="figure">{pic("bags_wall.jpg")}<figcaption>Babolat, Wilson and Head tennis racquet bags</figcaption></figure>
 <figure class="figure">{pic("tennis_balls.jpg")}<figcaption>Tecnifibre, Wilson and Dunlop tennis balls by the can</figcaption></figure>
 <figure class="figure">{pic("plush_keychain.jpg", cls="mid")}<figcaption>Plush tennis-ball keychains and small gifts for tennis players</figcaption></figure>
@@ -419,12 +419,12 @@ PAGES = [
   lead='<p class="lead">Owner of URacquet Shop. Stringer to tour professionals, international juniors, NCAA Division I programs — and the University of Pennsylvania since 2022.</p>',
   body=f'''
 <section class="band"><div class="wrap prose">
-<p>URacquet Shop owner Mark Kuczynski, a United States Racquet Stringing Association (USRSA) Master Racquet Technician, brings extensive experience stringing at the highest levels of tennis. As a multi-year member of the ATP 250 Winston-Salem Open stringing team, he coordinated racquet logistics and delivered precision stringing for the world’s top-ranked professionals. In 2026 he was the stringing team manager and lead stringer for the inaugural WTA 125 Philadelphia Open, and strung for the players at the Columbus Challenger, the ATP Challenger Tour event at Ohio State University. His tournament experience includes the 2023 and 2024 stringing teams at the Eddie Herr International Junior Championships at IMG Academy, where he strung for leading juniors and for multiple top-50 professionals conducting training blocks at IMG.</p>
+<p>URacquet Shop owner Mark Kuczynski, a United States Racquet Stringing Association (USRSA) Master Racquet Technician, brings extensive experience stringing at the highest levels of tennis. As a multi-year member of the ATP 250 Winston-Salem Open stringing team, he coordinated racquet logistics and delivered precision stringing for the world’s top-ranked professionals. In 2026 he was the stringing team manager and lead stringer for the inaugural WTA 125 Philadelphia Open. Additionally in 2026, Mark traveled to Columbus, Ohio to be a member of the stringing team at the ATP Columbus Challenger which takes place every year at Ohio State University. His tournament experience includes the 2023 and 2024 stringing teams at the Eddie Herr International Junior Championships at IMG Academy, where he strung for leading juniors and for multiple top-50 professionals conducting training blocks at IMG.</p>
 <p>Based in Philadelphia, Mark has been the dedicated full-time stringer for the University of Pennsylvania’s varsity tennis programs since 2022, and has worked for numerous NCAA and Ivy League programs including Wake Forest, Ohio State, the University of Georgia, Princeton, Harvard and Columbia. He has been the primary stringer and team leader for multiple ITA Northeast Regional Championships and for the ECAC Championships three years running. His commitment to professional service is underscored by training from multiple Master Racquet Technicians and Grand Slam–experienced stringers.</p>
 <figure class="figure">{pic("mark_portrait.jpg")}</figure>
 <p>In March 2026, Mark opened URacquet Shop in West Philadelphia, blocks from the University of Pennsylvania and Drexel University, to give Philadelphia’s club players and NCAA athletes alike access to Master Racquet Technician services — and the chance to pick his brain on the latest racquet and string technology.</p><p>When not in the shop or on court, Mark is at home with his wife and their cats.</p>
 <h2>Credentials</h2>
-<ul><li>USRSA Master Racquet Technician</li><li>University of Pennsylvania varsity tennis — full-time stringer since 2022</li><li>WTA 125 Philadelphia Open (2026) — team leader, manager and head stringer</li><li>ATP 250 Winston-Salem Open — multi-year stringing team member</li><li>Columbus Challenger (ATP Challenger Tour), Ohio State University — 2026</li><li>Eddie Herr International Junior Championships, IMG Academy — 2023, 2024</li><li>ITA Northeast Regional Championships; ECAC Championships (three years) — primary stringer and team lead</li><li>NCAA and Ivy League programs served: Wake Forest, Ohio State, Georgia, Princeton, Harvard, Columbia</li></ul>
+<ul><li>USRSA Master Racquet Technician</li><li>University of Pennsylvania varsity tennis — full-time stringer since 2022</li><li>WTA 125 Philadelphia Open (2026) — team leader, manager and head stringer</li><li>ATP 250 Winston-Salem Open — multi-year stringing team member</li><li>ATP Columbus Challenger, Ohio State University — stringing team member (2026)</li><li>Eddie Herr International Junior Championships, IMG Academy — 2023, 2024</li><li>ITA Northeast Regional Championships; ECAC Championships (three years) — primary stringer and team lead</li><li>NCAA and Ivy League programs served: Wake Forest, Ohio State, Georgia, Princeton, Harvard, Columbia</li></ul>
 <p><a class="btn outline" href="/press/">Read the press →</a></p>
 </div></section>'''),
 
@@ -476,7 +476,7 @@ PAGES = [
 <p><em>Court Theory, September 2026 · by Allen McDuffee.</em> A profile of Mark’s stringing operation at the inaugural WTA 125 Ennoble Care Philadelphia Open — a trophy ceremony that acknowledged the work of the stringer, and Mark’s observations on stringing for the top players in the world.</p>
 <p><a class="btn outline" href="{P["press_url"]}" rel="noopener">Read the article at Court Theory →</a></p>
 <h2>Professional summary</h2>
-<ul><li>WTA 125 Philadelphia Open (2026) — team leader, manager and head stringer</li><li>ATP 250 Winston-Salem Open — stringing team (multi-year)</li><li>Columbus Challenger (ATP Challenger Tour), Ohio State University — 2026</li><li>Eddie Herr International Junior Championships — 2023, 2024</li><li>University of Pennsylvania varsity tennis — stringer since 2022</li><li>ITA Northeast Regional Championships · ECAC Championships</li></ul>
+<ul><li>WTA 125 Philadelphia Open (2026) — team leader, manager and head stringer</li><li>ATP 250 Winston-Salem Open — stringing team (multi-year)</li><li>ATP Columbus Challenger, Ohio State University — stringing team member (2026)</li><li>Eddie Herr International Junior Championships — 2023, 2024</li><li>University of Pennsylvania varsity tennis — stringer since 2022</li><li>ITA Northeast Regional Championships · ECAC Championships</li></ul>
 <figure class="figure">{pic("ashe_stadium.jpg")}<figcaption>Arthur Ashe Stadium at the US Open in Flushing Meadows, New York.</figcaption></figure>
 </div></section>'''),
 ]

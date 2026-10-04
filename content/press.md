@@ -12,7 +12,7 @@ Court Theory, September 2026 · by Allen McDuffee. A profile of Mark's stringing
 ## Professional summary
 - WTA 125 Philadelphia Open (2026) — team leader, manager and head stringer
 - ATP 250 Winston-Salem Open — stringing team (multi-year)
-- Columbus Challenger (ATP Challenger Tour), Ohio State University — 2026
+- ATP Columbus Challenger, Ohio State University — stringing team member (2026)
 - Eddie Herr International Junior Championships — 2023, 2024
 - University of Pennsylvania varsity tennis — stringer since 2022
 - ITA Northeast Regionals · ECAC Championships
