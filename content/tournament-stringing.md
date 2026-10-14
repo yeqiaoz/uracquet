@@ -3,7 +3,7 @@ url: /tournament-stringing/
 title: Tournament Stringing — On-Site Stringing Room Setup & Management | URacquet Shop
 description: Mark Kuczynski sets up and manages on-site tournament stringing rooms: Wilson Baiardo machines, a team of tournament-experienced Master Racquet Technicians, on-court rush service, player racquet totals and budget tracking, flexible invoicing. WTA 125 Philadelphia Open, ITA Northeast Regionals, ECAC Championships.
 h1: Tournament Stringing: On-Site Stringing Room Setup and Management
-hero_image: stringing_machine.jpg (the Services banner, reused; heroes are things)
+hero_image: penn_court_snow.jpg (IMG_7571, Jan 2024 — a snowed-in Penn court with the P windscreen, a Wilson racquet and a Roland Garros bag; chosen 10/13 as a banner used nowhere else) · body photo: mark_penn_tennis.jpg (IMG_0014, Oct 2025 — Mark on a Wilson machine under the PENN TENNIS sign; square top crop) "On site for Penn varsity tennis, on a Wilson stringing machine."
 nav: "Tournaments" (8th item) · footer: "Tournament stringing" · cross-link note on Services under Stringing
 ---
 

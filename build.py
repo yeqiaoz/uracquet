@@ -55,6 +55,8 @@ ALT = {
  "string_reels_yonex.jpg":"A stack of Yonex string reels beside the Head racquet guide at URacquet Shop",
  "string_luxilon.jpg":"Luxilon string sets and reels on the counter at URacquet Shop",
  "stringing_machine.jpg":"A racquet mounted on the Wilson stringing machine at URacquet Shop, Mark Kuczynski's hands on the string bed",
+ "penn_court_snow.jpg":"A snow-covered court at Penn with the Penn P on the windscreen, a Wilson racquet and a Roland Garros bag by the net",
+ "mark_penn_tennis.jpg":"Mark Kuczynski stringing on site on a Wilson machine in front of the Penn Tennis backdrop",
  "window_lucky_cat.jpg":"The shop window at 4711 Pine Street: a giant Babolat tennis ball and a beckoning lucky cat",
  "wix_03.jpg":"A USTA National Championships banner on a court fence",
  "squash_racquets.jpg":"Tecnifibre Carboflex X-Top squash racquets on the racquet wall at URacquet Shop",
@@ -431,7 +433,7 @@ PAGES = [
 <p><a class="btn outline" href="/press/">Read the press →</a></p>
 </div></section>'''),
 
- dict(url="/tournament-stringing/", nav="Tournaments", hero="stringing_machine.jpg",
+ dict(url="/tournament-stringing/", nav="Tournaments", hero="penn_court_snow.jpg", hero_pos="85% 90%",
   title="Tournament Stringing — On-Site Stringing Room Setup & Management | URacquet Shop",
   description="Mark Kuczynski sets up and manages on-site tournament stringing rooms: Wilson Baiardo machines, a team of tournament-experienced Master Racquet Technicians, on-court rush service, player racquet totals and budget tracking, flexible invoicing. WTA 125 Philadelphia Open, ITA Northeast Regionals, ECAC Championships.",
   h1="Tournament Stringing: On-Site Stringing Room Setup and Management",
@@ -451,6 +453,7 @@ PAGES = [
 <li>Flexible invoicing and payment terms per tournament requirements. Credit/debit card payments accepted.</li>
 <li>Stringing room tear down and load out procedures per tournament requirements.</li>
 </ul>
+<figure class="figure sq">{pic("mark_penn_tennis.jpg")}<figcaption>On site for Penn varsity tennis, on a Wilson stringing machine.</figcaption></figure>
 <h2>Experience</h2>
 <ul>
 <li><strong>WTA 125 Philadelphia Open (2026)</strong> — stringing team manager and lead stringer for the inaugural event</li>
