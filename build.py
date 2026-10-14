@@ -57,6 +57,8 @@ ALT = {
  "stringing_machine.jpg":"A racquet mounted on the Wilson stringing machine at URacquet Shop, Mark Kuczynski's hands on the string bed",
  "penn_court_snow.jpg":"A snow-covered court at Penn with the Penn P on the windscreen, a Wilson racquet and a Roland Garros bag by the net",
  "mark_penn_tennis.jpg":"Mark Kuczynski stringing on site on a Wilson machine in front of the Penn Tennis backdrop",
+ "tournament_stringing_room.jpg":"Inside a tournament stringing room: the drop-off table with string, grips and the log sheet in front, Wilson Baiardo stringing machines behind",
+ "tournament_racquet_rack.jpg":"Players' racquets tagged and racked for pick-up in a tournament stringing room",
  "window_lucky_cat.jpg":"The shop window at 4711 Pine Street: a giant Babolat tennis ball and a beckoning lucky cat",
  "wix_03.jpg":"A USTA National Championships banner on a court fence",
  "squash_racquets.jpg":"Tecnifibre Carboflex X-Top squash racquets on the racquet wall at URacquet Shop",
@@ -453,13 +455,17 @@ PAGES = [
 <li>Flexible invoicing and payment terms per tournament requirements. Credit/debit card payments accepted.</li>
 <li>Stringing room tear down and load out procedures per tournament requirements.</li>
 </ul>
-<figure class="figure sq">{pic("mark_penn_tennis.jpg")}<figcaption>On site for Penn varsity tennis, on a Wilson stringing machine.</figcaption></figure>
+<div class="gallery two tall">
+<figure class="figure">{pic("tournament_stringing_room.jpg")}<figcaption>Inside a tournament stringing room: drop-off table, string and grips in front, Wilson Baiardo machines behind.</figcaption></figure>
+<figure class="figure">{pic("tournament_racquet_rack.jpg")}<figcaption>Players’ racquets tagged and racked for pick-up.</figcaption></figure>
+</div>
 <h2>Experience</h2>
 <ul>
 <li><strong>WTA 125 Philadelphia Open (2026)</strong> — stringing team manager and lead stringer for the inaugural event</li>
 <li><strong>ITA Northeast Regional Championships</strong> — primary stringer and team leader, multiple years</li>
 <li><strong>ECAC Conference Championships</strong> — primary stringer and team leader, three years running</li>
 </ul>
+<figure class="figure sq">{pic("mark_penn_tennis.jpg")}<figcaption>On site for Penn varsity tennis, on a Wilson stringing machine.</figcaption></figure>
 <p>Mark has also strung on the ATP 250 Winston-Salem Open and ATP Columbus Challenger stringing teams and at the Eddie Herr International Junior Championships, and has been the University of Pennsylvania’s varsity stringer since 2022. <a href="/about/">More background on the About page →</a></p>
 <p>Court Theory profiled the Philadelphia Open stringing room in “Thank The Stringer”. <a href="/press/">Read about it on the Press page →</a></p>
 <h2>Bring a stringing room to your tournament</h2>

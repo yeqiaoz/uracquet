@@ -24,6 +24,9 @@ URacquet Shop sets up and manages a professional tournament stringing room on si
 - Flexible invoicing and payment terms per tournament requirements. Credit/debit card payments accepted.
 - Stringing room tear down and load out procedures per tournament requirements.
 
+## Photos (added 10/13, from URphotos — Mark's phone, Aug 25 and 29, 2026)
+Two-up under the bullets: tournament_stringing_room.jpg "Inside a tournament stringing room: drop-off table, string and grips in front, Wilson Baiardo machines behind." + tournament_racquet_rack.jpg "Players' racquets tagged and racked for pick-up." — event not named in the captions until Mark confirms which tournament (the dates fall after the Philadelphia Open). The Penn Tennis photo sits below the Experience list.
+
 ## Experience (roles as already stated on the About page)
 - WTA 125 Philadelphia Open (2026) — stringing team manager and lead stringer for the inaugural event
 - ITA Northeast Regional Championships — primary stringer and team leader, multiple years
