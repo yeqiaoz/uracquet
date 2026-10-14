@@ -123,7 +123,8 @@ def biz_schema():
         {"@type":"Offer","itemOffered":{"@type":"Service","name":"Grip size build-up (heat-shrink sleeve)"},"price":"15.00","priceCurrency":"USD"},
         {"@type":"Offer","itemOffered":{"@type":"Service","name":"Racquet demo program"},"price":"40.00","priceCurrency":"USD","description":"Three racquets for seven days, $35 credit toward purchase"},
         {"@type":"Offer","itemOffered":{"@type":"Service","name":"Single-racquet demo"},"price":"20.00","priceCurrency":"USD","description":"One racquet for seven days, $15 credit toward purchase"},
-        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Squash racquet stringing"},"price":"26.50","priceCurrency":"USD","description":"String installation labor per squash racquet; string priced separately"}]}
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Squash racquet stringing"},"price":"26.50","priceCurrency":"USD","description":"String installation labor per squash racquet; string priced separately"},
+        {"@type":"Offer","itemOffered":{"@type":"Service","name":"Tournament stringing room setup and management"},"description":"On-site stringing room with Wilson Baiardo machines and a team of tournament-experienced Master Racquet Technicians; quoted per tournament"}]}
     }
 
 def faq_schema(pairs):
@@ -138,7 +139,7 @@ def faq_html(pairs):
     return '<div class="faq">' + "".join(f"<details><summary>{html.escape(q)}</summary><p>{a}</p></details>" for q,a in pairs) + "</div>"
 
 # ---------- layout ----------
-NAV = [("Home","/"),("Services","/services/"),("Products","/products/"),("Demo","/demo/"),("Squash","/squash/"),("About","/about/"),("Visit","/visit/")]
+NAV = [("Home","/"),("Services","/services/"),("Products","/products/"),("Demo","/demo/"),("Squash","/squash/"),("Tournaments","/tournament-stringing/"),("About","/about/"),("Visit","/visit/")]
 HOURS_TABLE = "<table><thead><tr><th>Day</th><th>Hours</th></tr></thead><tbody>" + "".join(f"<tr><td>{d}</td><td>{l}</td></tr>" for d,l,_,_ in HOURS) + "</tbody></table>"
 
 GSC_FILE = ROOT/"gsc-token.txt"
@@ -204,7 +205,7 @@ def layout(p):
     <div><h3>Visit</h3><p>{BIZ["street"]}<br>{BIZ["city"]}, {BIZ["state"]} {BIZ["zip"]}<br>West Philadelphia — one mile from Penn &amp; Drexel</p><p><a href="{BIZ["maps_dir"]}" rel="noopener">Get directions</a></p></div>
     <div><h3>Hours (typical)</h3><ul>{"".join(f"<li>{d[:3]}: {l}</li>" for d,l,_,_ in HOURS)}</ul><p><a href="{BIZ["maps_place"]}" rel="noopener">Today’s hours on Google →</a></p></div>
     <div><h3>Contact</h3><ul><li><a href="tel:{BIZ["tel"]}">{BIZ["phone"]}</a></li><li><a href="mailto:{BIZ["email"]}">{BIZ["email"]}</a></li><li><a href="{BIZ["instagram"]}" rel="noopener">Instagram @uracquetshop</a></li></ul></div>
-    <div><h3>Pages</h3><ul><li><a href="/services/">Services &amp; prices</a></li><li><a href="/products/">Products</a></li><li><a href="/demo/">Demo program</a></li><li><a href="/squash/">Squash</a></li><li><a href="/about/">About Mark</a></li><li><a href="/local/">Tennis in Philadelphia</a></li><li><a href="/press/">Press</a></li></ul></div>
+    <div><h3>Pages</h3><ul><li><a href="/services/">Services &amp; prices</a></li><li><a href="/products/">Products</a></li><li><a href="/demo/">Demo program</a></li><li><a href="/squash/">Squash</a></li><li><a href="/tournament-stringing/">Tournament stringing</a></li><li><a href="/about/">About Mark</a></li><li><a href="/local/">Tennis in Philadelphia</a></li><li><a href="/press/">Press</a></li></ul></div>
   </div>
   <div class="legal wrap">© 2026 URacquet Shop · Master Racquet Technician services · Philadelphia, PA</div>
 </footer>
@@ -292,6 +293,7 @@ PAGES = [
 <p>At URacquet Shop, your racquet is strung by Mark Kuczynski, USRSA Certified Master Racquet Technician. A free in-person consultation is available at the shop. Every racquet gets the same attention to detail Mark gives a professional at a major tournament — a steady, consistent string bed every time you step on the court. Eliminate the “what ifs” that follow a racquet strung by a friend or neighbor: string with the professional who has become the go-to racquet stringer in Philadelphia.</p>
 <ul class="price-list"><li><span>String installation labor</span><b>$26.50 per racquet</b></li><li><span>String</span><b>varies by selection</b></li><li><span>Bring your own string</span><b>labor only</b></li></ul>
 <p class="note">Rush and appointment stringing are provided on an as-available basis at the shop’s discretion. Please call ahead to schedule rush requests before dropping off your racquet.</p>
+<p class="note">Running a tournament or a college championship? Mark sets up and manages on-site stringing rooms — <a href="/tournament-stringing/">tournament stringing →</a></p>
 <h2 id="customization">Customization</h2>
 <p>Racquet customization alters a racquet’s existing specifications — static weight, swing weight, twist weight and balance — to a custom set requested by the player. Mark has years of experience matching and customizing racquets for the region’s most skilled and advanced players. Because every project is different, an exact price is quoted after the racquet’s current specifications are measured; contact the shop with a description of your project for a rough estimate. We use modern digital equipment for every customization.</p>
 <div class="gallery two ratio43">
@@ -427,6 +429,39 @@ PAGES = [
 <h2>Credentials</h2>
 <ul><li>USRSA Master Racquet Technician</li><li>University of Pennsylvania varsity tennis — full-time stringer since 2022</li><li>WTA 125 Philadelphia Open (2026) — team leader, manager and head stringer</li><li>ATP 250 Winston-Salem Open — multi-year stringing team member</li><li>ATP Columbus Challenger, Ohio State University — stringing team member (2026)</li><li>Eddie Herr International Junior Championships, IMG Academy — 2023, 2024</li><li>ITA Northeast Regional Championships; ECAC Championships (three years) — primary stringer and team lead</li><li>NCAA and Ivy League programs served: Wake Forest, Ohio State, Georgia, Princeton, Harvard, Columbia</li></ul>
 <p><a class="btn outline" href="/press/">Read the press →</a></p>
+</div></section>'''),
+
+ dict(url="/tournament-stringing/", nav="Tournaments", hero="stringing_machine.jpg",
+  title="Tournament Stringing — On-Site Stringing Room Setup & Management | URacquet Shop",
+  description="Mark Kuczynski sets up and manages on-site tournament stringing rooms: Wilson Baiardo machines, a team of tournament-experienced Master Racquet Technicians, on-court rush service, player racquet totals and budget tracking, flexible invoicing. WTA 125 Philadelphia Open, ITA Northeast Regionals, ECAC Championships.",
+  h1="Tournament Stringing: On-Site Stringing Room Setup and Management",
+  lead='<p class="lead">URacquet Shop sets up and manages a professional tournament stringing room on site at the location of the tournament — the team, the machines and the player coordination, run by a USRSA Master Racquet Technician.</p>',
+  cta=f'<div class="btns"><a class="btn primary" href="mailto:{P["email"]}?subject=Tournament%20stringing%20inquiry">Email {P["email"]}</a><a class="btn ghost" href="tel:{P["tel"]}">Call {P["phone"]}</a></div>',
+  body=f'''
+<section class="band"><div class="wrap prose">
+<h2>What we provide</h2>
+<ul>
+<li>On site mobilization and set up of professional stringing room with operation hours based on the needs of the tournament.</li>
+<li>Management of multi-person stringing team consisting only of tournament experienced master racquet stringers.</li>
+<li>Set up and usage of multiple Wilson Baiardo stringing machines, the industry standard machine used at pro tournaments such as the US Open and Roland Garros.</li>
+<li>Racquet drop off/pick up table, stringing machines and stencil station all located in the same location.</li>
+<li>Direct coordination with players and coaches for an on site racquet pick up schedule based on the needs of each player.</li>
+<li>“On-Court” rush racquet stringing service available while matches are taking place with immediate delivery to the match court.</li>
+<li>Player racquet totals and budget tracking available at any time during and after the tournament.</li>
+<li>Flexible invoicing and payment terms per tournament requirements. Credit/debit card payments accepted.</li>
+<li>Stringing room tear down and load out procedures per tournament requirements.</li>
+</ul>
+<h2>Experience</h2>
+<ul>
+<li><strong>WTA 125 Philadelphia Open (2026)</strong> — stringing team manager and lead stringer for the inaugural event</li>
+<li><strong>ITA Northeast Regional Championships</strong> — primary stringer and team leader, multiple years</li>
+<li><strong>ECAC Conference Championships</strong> — primary stringer and team leader, three years running</li>
+</ul>
+<p>Mark has also strung on the ATP 250 Winston-Salem Open and ATP Columbus Challenger stringing teams and at the Eddie Herr International Junior Championships, and has been the University of Pennsylvania’s varsity stringer since 2022. <a href="/about/">More background on the About page →</a></p>
+<p>Court Theory profiled the Philadelphia Open stringing room in “Thank The Stringer”. <a href="/press/">Read about it on the Press page →</a></p>
+<h2>Bring a stringing room to your tournament</h2>
+<p>Tell us the dates, the venue and the expected draw, and we will come back with a plan and a quote.</p>
+<p><a class="btn green" href="mailto:{P["email"]}?subject=Tournament%20stringing%20inquiry">Email {P["email"]}</a> &nbsp; <a class="btn outline" href="tel:{P["tel"]}">Call {P["phone"]}</a></p>
 </div></section>'''),
 
  dict(url="/visit/", nav="Visit", hero="window_lucky_cat.jpg", hero_pos="70% 30%",
