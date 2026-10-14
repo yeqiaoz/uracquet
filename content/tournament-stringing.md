@@ -31,6 +31,6 @@ URacquet Shop sets up and manages a professional tournament stringing room on si
 Mark has also strung on the ATP 250 Winston-Salem Open and ATP Columbus Challenger stringing teams and at the Eddie Herr International Junior Championships, and has been the University of Pennsylvania's varsity stringer since 2022. → About page. Court Theory's "Thank The Stringer" → Press page.
 
 ## Bring a stringing room to your tournament
-Tell us the dates, the venue and the expected draw, and we will come back with a plan and a quote. [Email] [Call]
+Tell us the dates, the venue, expected draw size, and we will collaborate on a plan for your tournament. [Email] [Call]
 
 Additions beyond Mark's email, flagged: the lead sentence and the closing call-to-action paragraph; the "Experience" roles reuse About-page wording; the nav item "Tournaments"; the Services cross-link; a Service entry in the store schema (no price).

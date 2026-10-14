@@ -463,7 +463,7 @@ PAGES = [
 <p>Mark has also strung on the ATP 250 Winston-Salem Open and ATP Columbus Challenger stringing teams and at the Eddie Herr International Junior Championships, and has been the University of Pennsylvania’s varsity stringer since 2022. <a href="/about/">More background on the About page →</a></p>
 <p>Court Theory profiled the Philadelphia Open stringing room in “Thank The Stringer”. <a href="/press/">Read about it on the Press page →</a></p>
 <h2>Bring a stringing room to your tournament</h2>
-<p>Tell us the dates, the venue and the expected draw, and we will come back with a plan and a quote.</p>
+<p>Tell us the dates, the venue, expected draw size, and we will collaborate on a plan for your tournament.</p>
 <p><a class="btn green" href="mailto:{P["email"]}?subject=Tournament%20stringing%20inquiry">Email {P["email"]}</a> &nbsp; <a class="btn outline" href="tel:{P["tel"]}">Call {P["phone"]}</a></p>
 </div></section>'''),
 
