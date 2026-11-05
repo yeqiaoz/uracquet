@@ -35,3 +35,8 @@ More racquet lines and models available including the Head Speed and Gravity, Ba
 
 ## Visit (→ /visit/)
 4711 Pine Street, Philadelphia, PA 19143 · (215) 586-3649 · uracquet@gmail.com · Hours table (canonical — see PLAN.md 7.4) · Free parking on Pine Street.
+
+
+## TEMPORARY notice at the very top of the page, above the banner (Mark, 11/4/26; auto-hides Mon 11/9/26; remove then)
+Reduced hours this week due to the NCAA Sectional Championships at UPenn Tennis Center. We apologize for any inconvenience.
+Wed Nov 4: 3–6 PM · Thu Nov 5: closed · Fri Nov 6: 12–6 PM · Sat Nov 7: 12–6 PM · Sun Nov 8: 12–5 PM
