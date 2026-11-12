@@ -224,16 +224,6 @@ def layout(p):
 # ---------- pages ----------
 P = BIZ
 
-# TEMPORARY NOTICE (Mark, 11/4/26): reduced hours Nov 4-8 for the NCAA Sectional Championships.
-# The page hides it by itself from Mon Nov 9, 2026, 00:00 Eastern; REMOVE this block, the `top=NOTICE`
-# argument on the home page dict and the .notice rules in templates/style.css on or after that day.
-# (layout() keeps its generic p.get("top") slot, which renders nothing when no page sets it.)
-NOTICE = """
-<section class="notice" id="hours-notice" data-expires="2026-11-09T00:00:00-05:00" aria-label="Reduced hours this week"><div class="wrap">
-<p><strong>Reduced hours this week</strong> due to the NCAA Sectional Championships at UPenn Tennis Center. We apologize for any inconvenience.</p>
-<ul><li><b>Wed Nov 4:</b> 3–6 PM</li><li><b>Thu Nov 5:</b> closed</li><li><b>Fri Nov 6:</b> 12–6 PM</li><li><b>Sat Nov 7:</b> 12–6 PM</li><li><b>Sun Nov 8:</b> 12–5 PM</li></ul>
-</div></section>
-<script>(function(){var n=document.getElementById('hours-notice');if(n&&Date.now()>=Date.parse(n.getAttribute('data-expires')))n.parentNode.removeChild(n);})();</script>"""
 services_faq = [
  ("How much does it cost to string a racquet?","$26.50 labor per racquet, plus the string you choose. Bring your own string and pay labor only."),
  ("How long does stringing take?","Turnaround depends on the queue — many racquets are ready the same or next day. Rush and appointment stringing are available on request; please call ahead."),
@@ -255,7 +245,7 @@ squash_faq = [
 ]
 
 PAGES = [
- dict(url="/", nav="Home", hero="shop_racquet_stack.jpg", top=NOTICE,  # top=NOTICE is TEMPORARY (see NOTICE above)
+ dict(url="/", nav="Home", hero="shop_racquet_stack.jpg",
   title="Racquet Stringing & Tennis Shop in West Philadelphia | URacquet Shop",
   description="Master Racquet Technician stringing, customization, racquet demos and tennis gear in West Philadelphia — one mile from Penn and Drexel. 4711 Pine St. Call (215) 586-3649.",
   h1="Master Racquet Stringing &amp; Tennis Shop in West Philadelphia",
